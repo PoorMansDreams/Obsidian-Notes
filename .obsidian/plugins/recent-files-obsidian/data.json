@@ -5,6 +5,10 @@
       "path": "Solar.md"
     },
     {
+      "basename": "Distribution Excel Functions",
+      "path": "Distribution Excel Functions.md"
+    },
+    {
       "basename": "Binomial Distributions",
       "path": "Binomial Distributions.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Poisson Distribution",
       "path": "Poisson Distribution.md"
-    },
-    {
-      "basename": "Distribution Excel Functions",
-      "path": "Distribution Excel Functions.md"
     },
     {
       "basename": "Negative Binomial Distribution",
