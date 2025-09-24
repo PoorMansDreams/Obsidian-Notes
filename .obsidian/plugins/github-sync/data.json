@@ -1,7 +1,7 @@
 {
   "remoteURL": "https://github.com/PoorMansDreams/Obsidian-Notes.git",
   "gitLocation": "",
-  "syncinterval": 1,
+  "syncinterval": 0,
   "isSyncOnLoad": false,
   "checkStatusOnLoad": true
 }
