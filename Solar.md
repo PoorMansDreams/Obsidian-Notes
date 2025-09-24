@@ -10,16 +10,3 @@ Optimum Solar collection depends on the season and the location of the planet.
 
 Solar can also be used for creation of compost
 
-<<<<<<< HEAD
-Solartastic and real
-
-```
-git add .
-git commit -m "my obsidian vault first commit"
-git branch -M main
-git remote add origin https://github.com/PoorMansDreams/Obsidian-Notes.git
-git push -u origin main
-```
-=======
-Solartastic
->>>>>>> 919d05ae758667aa1514fbf1636c357596a1fb0d
