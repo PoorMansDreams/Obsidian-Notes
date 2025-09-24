@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Senate Bill 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binomial Distributions"
+              "title": "Senate Bill 1"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Senate Bill 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Binomial Distributions"
+              "title": "Backlinks for Senate Bill 1"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Senate Bill 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Binomial Distributions"
+              "title": "Outgoing links from Senate Bill 1"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Binomial Distributions.md",
+                "file": "Senate Bill 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binomial Distributions"
+              "title": "Outline of Senate Bill 1"
             }
           }
         ]
@@ -173,13 +173,13 @@
   },
   "active": "d5846d4428417ced",
   "lastOpenFiles": [
+    "Binomial Distributions.md",
     "Distribution Excel Functions.md",
     "Pictures/Pasted image 20250924102239.png",
     "Probability Distribution.md",
     "Poisson Distribution.md",
     "Pictures/Pasted image 20250924101947.png",
     "Hypergeometric Distribution.md",
-    "Binomial Distributions.md",
     "Pictures/Pasted image 20250924101859.png",
     "Negative Binomial Distribution.md",
     "Pictures/Pasted image 20250924101754.png",
