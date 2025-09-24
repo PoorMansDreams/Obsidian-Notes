@@ -10,3 +10,4 @@ Optimum Solar collection depends on the season and the location of the planet.
 
 Solar can also be used for creation of compost
 
+Solartastic
