@@ -42,3 +42,11 @@ we can just use the [[Discrete Uniform Distribution]]
 [[Geometric Distribution]]
 
 [[Binomial Distributions]]
+
+[[Negative Binomial Distribution]]
+
+[[Hypergeometric Distribution]]
+
+[[Poisson Distribution]]
+
+All of these Distributions have long equations but we can just use [[Distribution Excel Functions]]
