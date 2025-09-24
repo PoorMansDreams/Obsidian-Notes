@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "df0448e7a4b6f827",
+    "id": "02a13c9e1fc76c76",
     "type": "split",
     "children": [
       {
-        "id": "82c5a74ae0c04163",
+        "id": "4cd2022122bd8bcd",
         "type": "tabs",
         "children": [
           {
-            "id": "d5846d4428417ced",
+            "id": "818d17a860e5a665",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solar.md",
+                "file": "Transportation Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Solar"
+              "title": "Transportation Engineering"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e8b54f923c8fc4b3",
+    "id": "622b5ee948fb1cf2",
     "type": "split",
     "children": [
       {
-        "id": "7068b7ce2cf6d126",
+        "id": "40dc574969801838",
         "type": "tabs",
         "children": [
           {
-            "id": "2d5e1758193124cc",
+            "id": "54a86e7893c102fa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "c01c0f51842795aa",
+            "id": "c87328f54b5773f2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "a013204ec7a97604",
+            "id": "65e7a420f10bdd18",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,38 +73,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "a2cf4cf2d8094540",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "clock",
-              "title": "Recent Files"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 300
   },
   "right": {
-    "id": "e0dfff3422e68eb7",
+    "id": "2580c19e0070d9f0",
     "type": "split",
     "children": [
       {
-        "id": "788031354263cef2",
+        "id": "ea070c86b74274f1",
         "type": "tabs",
         "children": [
           {
-            "id": "90cd5e1157707d0e",
+            "id": "1bb54889293a4522",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar.md",
+                "file": "Transportation Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Solar"
+              "title": "Backlinks for Transportation Engineering"
             }
           },
           {
-            "id": "64dcc67c0ca9700d",
+            "id": "f5e4abd910e5a22b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar.md",
+                "file": "Transportation Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Solar"
+              "title": "Outgoing links from Transportation Engineering"
             }
           },
           {
-            "id": "45aa971a81b41c72",
+            "id": "baafc6eaa64c55fc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,18 +137,18 @@
             }
           },
           {
-            "id": "f35fd4188f499743",
+            "id": "364863f69e2b62a3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar.md",
+                "file": "Transportation Engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Solar"
+              "title": "Outline of Transportation Engineering"
             }
           }
         ]
@@ -177,37 +167,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "remotely-save:Remotely Save": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "d5846d4428417ced",
+  "active": "818d17a860e5a665",
   "lastOpenFiles": [
     "Untitled 1.md",
-    "Untitled.md",
-    "Binomial Distributions.md",
-    "Solar.md",
-    "Distribution Excel Functions.md",
-    "Hypergeometric Distribution.md",
-    "Probability Distribution.md",
-    "Poisson Distribution.md",
-    "Negative Binomial Distribution.md",
-    "Discrete Uniform Distribution.md",
-    "2025-09-24.md",
-    "Untitled.canvas",
-    "Geometric Distribution.md",
-    "Civil Engineering Probability and Statistics.md",
-    "Senate Bill 1.md",
-    "Pictures/Pasted image 20250924102239.png",
-    "Pictures/Pasted image 20250924101947.png",
-    "Pictures/Pasted image 20250924101859.png",
-    "Pictures/Pasted image 20250924101754.png",
-    "Logic Problems.md",
-    "Pictures/Pasted image 20250924101548.png",
-    "Pictures",
     "Transportation Engineering.md",
-    "Pasted image 20250923173928.png",
-    "Power usage.md",
-    "Untitled.base"
+    "Untitled.md",
+    "Solar.md",
+    "Senate Bill 1.md"
   ]
 }
