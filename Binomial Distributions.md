@@ -7,4 +7,9 @@ $X=1$ when $f(x)=p$
 So the times stopped being zero means that you **avoided** the probability $p$ which is the complement of $p$ which is $1-p$
 
 
+<<<<<<< HEAD
 ![[Pasted image 20250924101548.png]]
+=======
+![[Pasted image 20250924101548.png]]
+
+>>>>>>> 919d05ae758667aa1514fbf1636c357596a1fb0d

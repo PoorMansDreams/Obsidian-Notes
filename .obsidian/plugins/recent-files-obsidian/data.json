@@ -5,6 +5,7 @@
       "path": "Solar.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Transportation Engineering",
       "path": "Transportation Engineering.md"
     },
@@ -15,14 +16,39 @@
     {
       "basename": "Negative Binomial Distribution",
       "path": "Negative Binomial Distribution.md"
+=======
+      "basename": "Binomial Distributions",
+      "path": "Binomial Distributions.md"
+    },
+    {
+      "basename": "Hypergeometric Distribution",
+      "path": "Hypergeometric Distribution.md"
+    },
+    {
+      "basename": "Probability Distribution",
+      "path": "Probability Distribution.md"
+    },
+    {
+      "basename": "Poisson Distribution",
+      "path": "Poisson Distribution.md"
+>>>>>>> 919d05ae758667aa1514fbf1636c357596a1fb0d
     },
     {
       "basename": "Distribution Excel Functions",
       "path": "Distribution Excel Functions.md"
     },
     {
+<<<<<<< HEAD
       "basename": "Probability Distribution",
       "path": "Probability Distribution.md"
+=======
+      "basename": "Negative Binomial Distribution",
+      "path": "Negative Binomial Distribution.md"
+    },
+    {
+      "basename": "Discrete Uniform Distribution",
+      "path": "Discrete Uniform Distribution.md"
+>>>>>>> 919d05ae758667aa1514fbf1636c357596a1fb0d
     },
     {
       "basename": "Geometric Distribution",
