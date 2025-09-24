@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distribution Excel Functions.md",
+                "file": "Solar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distribution Excel Functions"
+              "title": "Solar"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Distribution Excel Functions.md",
+                "file": "Solar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Distribution Excel Functions"
+              "title": "Backlinks for Solar"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Distribution Excel Functions.md",
+                "file": "Solar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Distribution Excel Functions"
+              "title": "Outgoing links from Solar"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Distribution Excel Functions.md",
+                "file": "Solar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Distribution Excel Functions"
+              "title": "Outline of Solar"
             }
           }
         ]
@@ -183,23 +183,23 @@
   },
   "active": "d5846d4428417ced",
   "lastOpenFiles": [
-    "2025-09-24.md",
-    "Distribution Excel Functions.md",
-    "Untitled.canvas",
-    "Negative Binomial Distribution.md",
-    "Solar.md",
+    "Binomial Distributions.md",
+    "Hypergeometric Distribution.md",
     "Probability Distribution.md",
+    "Poisson Distribution.md",
+    "Distribution Excel Functions.md",
+    "Negative Binomial Distribution.md",
+    "Discrete Uniform Distribution.md",
+    "Solar.md",
+    "2025-09-24.md",
+    "Untitled.canvas",
     "Geometric Distribution.md",
     "Civil Engineering Probability and Statistics.md",
     "Senate Bill 1.md",
-    "Binomial Distributions.md",
     "Pictures/Pasted image 20250924102239.png",
-    "Poisson Distribution.md",
     "Pictures/Pasted image 20250924101947.png",
-    "Hypergeometric Distribution.md",
     "Pictures/Pasted image 20250924101859.png",
     "Pictures/Pasted image 20250924101754.png",
-    "Discrete Uniform Distribution.md",
     "Logic Problems.md",
     "Pictures/Pasted image 20250924101548.png",
     "Pictures",

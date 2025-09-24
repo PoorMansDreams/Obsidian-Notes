@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Distribution Excel Functions",
-      "path": "Distribution Excel Functions.md"
+      "basename": "Solar",
+      "path": "Solar.md"
+    },
+    {
+      "basename": "Binomial Distributions",
+      "path": "Binomial Distributions.md"
+    },
+    {
+      "basename": "Hypergeometric Distribution",
+      "path": "Hypergeometric Distribution.md"
     },
     {
       "basename": "Probability Distribution",
       "path": "Probability Distribution.md"
     },
     {
+      "basename": "Poisson Distribution",
+      "path": "Poisson Distribution.md"
+    },
+    {
+      "basename": "Distribution Excel Functions",
+      "path": "Distribution Excel Functions.md"
+    },
+    {
       "basename": "Negative Binomial Distribution",
       "path": "Negative Binomial Distribution.md"
     },
     {
-      "basename": "Solar",
-      "path": "Solar.md"
+      "basename": "Discrete Uniform Distribution",
+      "path": "Discrete Uniform Distribution.md"
     },
     {
       "basename": "Geometric Distribution",
