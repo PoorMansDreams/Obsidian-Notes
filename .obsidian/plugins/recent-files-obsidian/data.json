@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Distribution Excel Functions",
+      "path": "Distribution Excel Functions.md"
+    },
+    {
       "basename": "Power usage",
       "path": "Power usage.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "Binomial Distributions",
       "path": "Binomial Distributions.md"
-    },
-    {
-      "basename": "Distribution Excel Functions",
-      "path": "Distribution Excel Functions.md"
     },
     {
       "basename": "Probability Distribution",
