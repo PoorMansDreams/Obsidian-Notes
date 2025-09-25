@@ -11,7 +11,6 @@
             "id": "818d17a860e5a665",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -24,28 +23,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github link.md",
-=======
-              "type": "markdown",
-              "state": {
-                "file": "Transportation Engineering.md",
->>>>>>> ac5cdac5dda2261e7508eba1d39f5995fac9e2e1
+                "file": "Senate Bill 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Github link"
+              "title": "Senate Bill 1"
             }
           }
         ],
         "currentTab": 1
-=======
-              "title": "Transportation Engineering"
-            }
-          }
-        ]
->>>>>>> ac5cdac5dda2261e7508eba1d39f5995fac9e2e1
       }
     ],
     "direction": "vertical"
@@ -194,21 +181,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-<<<<<<< HEAD
   "active": "e470a17b8c4626cd",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20250924101859.png",
+    "Pictures/Pasted image 20250924101548.png",
+    "Discrete Uniform Distribution.md",
     "Github link.md",
-    "Transportation Engineering.md",
     "Logic Problems.md",
-    "Untitled 1.md",
-=======
-  "active": "818d17a860e5a665",
-  "lastOpenFiles": [
-    "Untitled 1.md",
     "Transportation Engineering.md",
-    "Untitled.md",
->>>>>>> ac5cdac5dda2261e7508eba1d39f5995fac9e2e1
     "Solar.md",
+    "Hypergeometric Distribution.md",
+    "Untitled 1.md",
     "Senate Bill 1.md"
   ]
 }
