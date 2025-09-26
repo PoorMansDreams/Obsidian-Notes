@@ -14,3 +14,4 @@ if shit does not work
 ```
 git pull https://github.com/PoorMansDreams/Obsidian-Notes.git --allow-unrelated-histories
 ```
+

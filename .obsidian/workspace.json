@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c55b99aa56b647b9",
+        "id": "720d7a85d30caebc",
         "type": "tabs",
         "children": [
           {
-            "id": "9ed5d98e4df365a2",
+            "id": "38b1191b88ad5aee",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/community-plugins.json",
-                "bFile": ".obsidian/community-plugins.json",
-                "aRef": ""
+                "file": "Civil Statistics/Probability Distribution.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: community-plugins.json"
+              "icon": "lucide-file",
+              "title": "Probability Distribution"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9efa04be4b9244c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74cdfc54f2f642b8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -142,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transportation Engineering.md",
+                "file": "Civil Statistics/Binomial Distributions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transportation Engineering"
+              "title": "Outline of Binomial Distributions"
             }
           },
           {
@@ -160,13 +176,33 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "875fb414729ee40e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "2702b62be9a5804a",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 466.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,27 +213,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ed5d98e4df365a2",
+  "active": "74cdfc54f2f642b8",
   "lastOpenFiles": [
-    "Civil Statistics/Distribution Excel Functions.md",
-    "2025-09-26.md",
+    "Pictures/Pasted image 20250924101548.png",
+    "Civil Statistics/Binomial Distributions.md",
     "Civil Statistics/Probability Distribution.md",
+    "Civil Statistics/Hypergeometric Distribution.md",
+    "Civil Statistics/Poisson Distribution.md",
+    "Civil Statistics/Civil Engineering Probability and Statistics.md",
+    "Civil Statistics/Distribution Excel Functions.md",
+    "Github link.md",
     "Civil Statistics/Discrete Uniform Distribution.md",
+    "2025-09-26.md",
     "Untitled.md",
     "Transport Engineering/Transportation Engineering.md",
-    "Civil Statistics/Poisson Distribution.md",
     "Civil Statistics/Geometric Distribution.md",
     "Civil Statistics/Negative Binomial Distribution.md",
-    "Civil Statistics/Hypergeometric Distribution.md",
     "Transport Engineering/Power usage.md",
     "Transport Engineering/Logic Problems.md",
     "Transport Engineering/California SB 535 Act.md",
     "Transport Engineering/The Kyoto Protocol.md",
-    "Civil Statistics/Github link.md",
     "Transport Engineering/Sustainable Transport.md",
     "Geometric Distribution.md",
     "Transport Engineering/Solar.md",
@@ -205,14 +243,10 @@
     "Transport Engineering/Environmental Advantages and Disadvantages.md",
     "Transport Engineering",
     "Pictures/Pasted image 20250925174551.png",
-    "Civil Statistics/Civil Engineering Probability and Statistics.md",
-    "Civil Statistics/Binomial Distributions.md",
     "Civil Statistics",
-    "Github link.md",
     "Distribution Excel Functions.md",
     "Discrete Uniform Distribution.md",
     "Civil Engineering Probability and Statistics.md",
-    "Pictures/Pasted image 20250924101859.png",
-    "Pictures/Pasted image 20250924101548.png"
+    "Pictures/Pasted image 20250924101859.png"
   ]
 }
