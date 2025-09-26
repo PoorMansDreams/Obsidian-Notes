@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Geometric Distribution",
+      "path": "Geometric Distribution.md"
+    },
+    {
+      "basename": "Github link",
+      "path": "Github link.md"
+    },
+    {
+      "basename": "Distribution Excel Functions",
+      "path": "Distribution Excel Functions.md"
+    },
+    {
+      "basename": "Discrete Uniform Distribution",
+      "path": "Discrete Uniform Distribution.md"
+    },
+    {
+      "basename": "Civil Engineering Probability and Statistics",
+      "path": "Civil Engineering Probability and Statistics.md"
+    },
+    {
+      "basename": "Binomial Distributions",
+      "path": "Binomial Distributions.md"
+    },
+    {
+      "basename": "Power usage",
+      "path": "Power usage.md"
+    },
+    {
+      "basename": "Poisson Distribution",
+      "path": "Poisson Distribution.md"
+    },
+    {
+      "basename": "Negative Binomial Distribution",
+      "path": "Negative Binomial Distribution.md"
+    },
+    {
+      "basename": "Logic Problems",
+      "path": "Logic Problems.md"
+    },
+    {
+      "basename": "Hypergeometric Distribution",
+      "path": "Hypergeometric Distribution.md"
+    },
+    {
+      "basename": "Probability Distribution",
+      "path": "Probability Distribution.md"
+    },
+    {
       "basename": "Senate Bill 1",
       "path": "Senate Bill 1.md"
     },
@@ -13,56 +61,12 @@
       "path": "Pictures/Pasted image 20250924101548.png"
     },
     {
-      "basename": "Discrete Uniform Distribution",
-      "path": "Discrete Uniform Distribution.md"
-    },
-    {
-      "basename": "Github link",
-      "path": "Github link.md"
-    },
-    {
-      "basename": "Logic Problems",
-      "path": "Logic Problems.md"
-    },
-    {
       "basename": "Transportation Engineering",
       "path": "Transportation Engineering.md"
     },
     {
       "basename": "Solar",
       "path": "Solar.md"
-    },
-    {
-      "basename": "Hypergeometric Distribution",
-      "path": "Hypergeometric Distribution.md"
-    },
-    {
-      "basename": "Binomial Distributions",
-      "path": "Binomial Distributions.md"
-    },
-    {
-      "basename": "Distribution Excel Functions",
-      "path": "Distribution Excel Functions.md"
-    },
-    {
-      "basename": "Probability Distribution",
-      "path": "Probability Distribution.md"
-    },
-    {
-      "basename": "Poisson Distribution",
-      "path": "Poisson Distribution.md"
-    },
-    {
-      "basename": "Negative Binomial Distribution",
-      "path": "Negative Binomial Distribution.md"
-    },
-    {
-      "basename": "Geometric Distribution",
-      "path": "Geometric Distribution.md"
-    },
-    {
-      "basename": "Civil Engineering Probability and Statistics",
-      "path": "Civil Engineering Probability and Statistics.md"
     }
   ],
   "omittedPaths": [],
