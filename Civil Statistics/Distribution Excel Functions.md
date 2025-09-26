@@ -1,5 +1,6 @@
 ![[Pasted image 20250924102239.png]]
 
+
 ###### calculate the probability of exactly 4 successes in 100 trials, with a 0.5% chance of success on each trial.
 
 `=BINOM.DIST(4, 100, 0.005, FALSE)`
