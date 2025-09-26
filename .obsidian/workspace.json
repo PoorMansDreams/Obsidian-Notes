@@ -13,26 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Distribution Excel Functions.md",
+                "file": "Senate Bill 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Distribution Excel Functions"
+              "title": "Senate Bill 1"
             }
           },
           {
-            "id": "1396fb4c48e2f349",
+            "id": "b746945dff0e96f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Power usage.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Power usage"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -102,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 200
   },
   "right": {
     "id": "e0dfff3422e68eb7",
@@ -196,32 +192,38 @@
   },
   "active": "d5846d4428417ced",
   "lastOpenFiles": [
+    "Sustainable Transport.md",
+    "Environmental Advantages and Disadvantages.md",
+    "Pasted image 20250925174551.png",
+    "The Kyoto Protocol.md",
+    "California SB 535 Act.md",
+    "Transportation Engineering.md",
+    "Civil Engineering Probability and Statistics.md",
+    "Discrete Uniform Distribution.md",
+    "Logic Problems.md",
+    "Probability Distribution.md",
+    "Github link.md",
+    "Random Base.base",
+    "Negative Binomial Distribution.md",
+    "Untitled 1.base",
+    "Binomial Distributions.md",
+    "Untitled.md",
     "Power usage.md",
+    "Distribution Excel Functions.md",
     "Hypergeometric Distribution.md",
     "Senate Bill 1.md",
-    "Untitled.md",
-    "Github link.md",
     "Solar.md",
     "Untitled 1.md",
-    "Binomial Distributions.md",
-    "Distribution Excel Functions.md",
-    "Probability Distribution.md",
     "Poisson Distribution.md",
-    "Negative Binomial Distribution.md",
-    "Discrete Uniform Distribution.md",
     "2025-09-24.md",
     "Untitled.canvas",
     "Geometric Distribution.md",
-    "Civil Engineering Probability and Statistics.md",
     "Pictures/Pasted image 20250924102239.png",
     "Pictures/Pasted image 20250924101947.png",
     "Pictures/Pasted image 20250924101859.png",
     "Pictures/Pasted image 20250924101754.png",
-    "Logic Problems.md",
     "Pictures/Pasted image 20250924101548.png",
     "Pictures",
-    "Transportation Engineering.md",
-    "Pasted image 20250923173928.png",
-    "Untitled.base"
+    "Pasted image 20250923173928.png"
   ]
 }

@@ -1,1 +1,5 @@
 [[Probability Distribution]]
+
+Professor Redman, 
+
+
