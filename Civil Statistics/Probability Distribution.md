@@ -50,3 +50,4 @@ we can just use the [[Discrete Uniform Distribution]]
 [[Poisson Distribution]]
 
 All of these Distributions have long equations but we can just use [[Distribution Excel Functions]]
+

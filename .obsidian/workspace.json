@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Civil Statistics/Probability Distribution.md",
+                "file": "Civil Statistics/Distribution Excel Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability Distribution"
+              "title": "Distribution Excel Functions"
             }
           }
         ]
@@ -168,6 +168,16 @@
               "icon": "lucide-list",
               "title": "Outline of Transportation Engineering"
             }
+          },
+          {
+            "id": "5aaa8daf4ecad4cb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ]
       }
@@ -190,12 +200,13 @@
   },
   "active": "dc38745fb177cd36",
   "lastOpenFiles": [
+    "2025-09-26.md",
+    "Civil Statistics/Distribution Excel Functions.md",
     "Civil Statistics/Probability Distribution.md",
     "Civil Statistics/Discrete Uniform Distribution.md",
     "Untitled.md",
     "Transport Engineering/Transportation Engineering.md",
     "Civil Statistics/Poisson Distribution.md",
-    "Civil Statistics/Distribution Excel Functions.md",
     "Civil Statistics/Geometric Distribution.md",
     "Civil Statistics/Negative Binomial Distribution.md",
     "Civil Statistics/Hypergeometric Distribution.md",
@@ -218,7 +229,6 @@
     "Distribution Excel Functions.md",
     "Discrete Uniform Distribution.md",
     "Civil Engineering Probability and Statistics.md",
-    "Binomial Distributions.md",
     "Pictures/Pasted image 20250924101859.png",
     "Pictures/Pasted image 20250924101548.png"
   ]
