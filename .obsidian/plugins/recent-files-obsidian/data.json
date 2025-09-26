@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Probability Distribution",
+      "path": "Civil Statistics/Probability Distribution.md"
+    },
+    {
+      "basename": "Discrete Uniform Distribution",
+      "path": "Civil Statistics/Discrete Uniform Distribution.md"
+    },
+    {
       "basename": "Transportation Engineering",
       "path": "Transport Engineering/Transportation Engineering.md"
+    },
+    {
+      "basename": "Poisson Distribution",
+      "path": "Civil Statistics/Poisson Distribution.md"
     },
     {
       "basename": "Distribution Excel Functions",
@@ -19,10 +31,6 @@
     {
       "basename": "Hypergeometric Distribution",
       "path": "Civil Statistics/Hypergeometric Distribution.md"
-    },
-    {
-      "basename": "Poisson Distribution",
-      "path": "Civil Statistics/Poisson Distribution.md"
     },
     {
       "basename": "Power usage",
