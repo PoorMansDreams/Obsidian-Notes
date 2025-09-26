@@ -6,37 +6,19 @@
       {
         "id": "c55b99aa56b647b9",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "9ed5d98e4df365a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Civil Statistics/Distribution Excel Functions.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/community-plugins.json",
+                "bFile": ".obsidian/community-plugins.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Distribution Excel Functions"
-            }
-          }
-        ]
-      },
-      {
-        "id": "851af88945f6be36",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "dc38745fb177cd36",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "diff",
+              "title": "Diff: community-plugins.json"
             }
           }
         ]
@@ -170,21 +152,21 @@
             }
           },
           {
-            "id": "5aaa8daf4ecad4cb",
+            "id": "280e2f858ff3c895",
             "type": "leaf",
             "state": {
-              "type": "calendar",
+              "type": "git-view",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,13 +177,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc38745fb177cd36",
+  "active": "9ed5d98e4df365a2",
   "lastOpenFiles": [
-    "2025-09-26.md",
     "Civil Statistics/Distribution Excel Functions.md",
+    "2025-09-26.md",
     "Civil Statistics/Probability Distribution.md",
     "Civil Statistics/Discrete Uniform Distribution.md",
     "Untitled.md",
