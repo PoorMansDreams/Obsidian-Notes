@@ -30,9 +30,38 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "20fb1e6b30bf5b4a",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "bFile": ".obsidian/plugins/recent-files-obsidian/data.json",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: data.json"
+            }
+          },
+          {
+            "id": "01b62db9559a5bf6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,8 +231,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b746945dff0e96f8",
+  "active": "01b62db9559a5bf6",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Github link.md",
     "Civil Statistics/Github link.md",
     "Civil Statistics/Civil Engineering Probability and Statistics.md",
     "Civil Statistics",
