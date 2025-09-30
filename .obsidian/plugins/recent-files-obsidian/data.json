@@ -5,6 +5,10 @@
       "path": "Chemical Equilibrium.md"
     },
     {
+      "basename": "Transportation Engineering",
+      "path": "Transport Engineering/Transportation Engineering.md"
+    },
+    {
       "basename": "Stoichiometry",
       "path": "Stoichiometry.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Power usage",
       "path": "Transport Engineering/Power usage.md"
-    },
-    {
-      "basename": "Transportation Engineering",
-      "path": "Transport Engineering/Transportation Engineering.md"
     },
     {
       "basename": "Hypergeometric Distribution",
