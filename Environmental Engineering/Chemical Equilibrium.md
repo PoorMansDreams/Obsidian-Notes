@@ -64,5 +64,3 @@ In a particular experiment, 3 mole of each component was added to a 1.5L flask, 
 $$
 K=\frac{[2HF]}{[F_{2}][H_{2}]}=\frac{2+2x}{(2-2x)(2-x)}=
 $$
-[[Drawing 2025-09-30 16.58.35.excalidraw]]
-
