@@ -62,5 +62,22 @@ In a particular experiment, 3 mole of each component was added to a 1.5L flask, 
 | **Change**      | -x      | -x      | +2x     |
 | **Equilibrium** | 2-x     | 2-x     | 2+2x    |
 $$
-K=\frac{[2HF]}{[F_{2}][H_{2}]}=\frac{2+2x}{(2-2x)(2-x)}=
+K_{c}=\frac{[HF]^2}{[F_{2}][H_{2}]}=\frac{(2+2x)^2}{(2-x)(2-x)}=\frac{(2+2x)^2}{(2-x)^2}=1.15\times 10^2
 $$
+$$
+\sqrt{1.15\times 10^2}=\frac{2+2x}{2-x}=\pm 10.72
+$$
+$$
+2+2x= 21.44- 10.72x 
+$$
+$$
+x=1.53 \text{ when positive}
+$$
+$$
+2+2x=-21.44+10.72x
+$$
+$$
+x=2.69 \text{ when negative}
+$$
+cannot be the negative concentration since $2-2.69=-0.69M$ the molarity cannot be negative.
+
