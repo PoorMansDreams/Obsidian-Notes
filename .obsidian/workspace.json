@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "05d88e7a4bb1761c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chemical Equilibrium.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chemical Equilibrium"
-            }
-          },
-          {
             "id": "42f75f35a62f9da9",
             "type": "leaf",
             "state": {
@@ -63,8 +49,7 @@
               "title": "Transportation Engineering"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Power usage.md",
+                "file": "Transport Engineering/greenhouse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Power usage"
+              "title": "Backlinks for greenhouse"
             }
           },
           {
@@ -195,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Power usage.md",
+                "file": "Transport Engineering/greenhouse.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Power usage"
+              "title": "Outline of greenhouse"
             }
           },
           {
@@ -247,13 +232,19 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "05d88e7a4bb1761c",
+  "active": "8267c6c4af8efb73",
   "lastOpenFiles": [
-    "Transport Engineering/Transportation Engineering.md",
+    "Pasted image 20250930171114.png",
+    "Transport Engineering/greenhouse.md",
+    "Pasted image 20250930165803.png",
+    "Excalidraw/Drawing 2025-09-30 16.58.35.excalidraw.md",
     "Chemical Equilibrium.md",
+    "Excalidraw",
+    "Transport Engineering/Transportation Engineering.md",
     "Stoichiometry.md",
     "Environmental Engineering/normalities.md",
     "Environmental Engineering/Hardness.md",
@@ -261,7 +252,6 @@
     "Pictures/Pasted image 20250929141616.png",
     "Environmental Engineering",
     "Civil Statistics/Poisson Distribution.md",
-    "Transport Engineering/greenhouse.md",
     "Civil Statistics/Civil Engineering Probability and Statistics.md",
     "Civil Statistics/Distribution Excel Functions.md",
     "Transport Engineering/Power usage.md",
@@ -284,15 +274,12 @@
     "Civil Statistics/Negative Binomial Distribution.md",
     "Untitled 1.base",
     "Civil Statistics/Binomial Distributions.md",
-    "Transport Engineering/Solar.md",
-    "Untitled 1.md",
     "Untitled.canvas",
     "Pictures/Pasted image 20250924102239.png",
     "Pictures/Pasted image 20250924101947.png",
     "Pictures/Pasted image 20250924101859.png",
     "Pictures/Pasted image 20250924101754.png",
     "Pictures/Pasted image 20250924101548.png",
-    "Pictures",
-    "Pasted image 20250923173928.png"
+    "Pictures"
   ]
 }

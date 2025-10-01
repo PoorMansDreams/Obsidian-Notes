@@ -1,4 +1,4 @@
- = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 #environmental
+ #environmental
 * The state where the concentration of all reactants and products remain constant with time.  
 * On the molecular level, there is frantic activity. Equilibrium is not static but is a highly dynamic situation.  
 Example: the flow of cars across a bridge connecting two islands  
@@ -64,3 +64,5 @@ In a particular experiment, 3 mole of each component was added to a 1.5L flask, 
 $$
 K=\frac{[2HF]}{[F_{2}][H_{2}]}=\frac{2+2x}{(2-2x)(2-x)}=
 $$
+[[Drawing 2025-09-30 16.58.35.excalidraw]]
+
