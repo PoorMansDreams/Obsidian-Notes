@@ -119,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Civil Statistics/Exam 1 Prep Civil Stats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Exam 1 Prep Civil Stats"
             }
           },
           {
@@ -166,12 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Civil Statistics/Exam 1 Prep Civil Stats.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Exam 1 Prep Civil Stats"
             }
           },
           {
@@ -210,8 +212,8 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -221,17 +223,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "83a088f17cac5433",
+  "active": "f133d7118d7c4d29",
   "lastOpenFiles": [
     "Civil Statistics/Exam 1 Prep Civil Stats.md",
+    "Excalidraw/Driveway.md",
+    "Transport Engineering/Environmental Advantages and Disadvantages.md",
+    "Transport Engineering/Pedestrian Planning.md",
     "Civil Statistics/Probability Distribution.md",
     "Transport Engineering/Measure Transit Accessibility.md",
-    "Transport Engineering/Pedestrian Planning.md",
     "Untitled.canvas",
     "Transport Engineering/Transportation Engineering.md",
-    "Excalidraw/Driveway.md",
     "Transport Engineering/Sustainable Transport.md",
-    "Transport Engineering/Environmental Advantages and Disadvantages.md",
     "Environmental Engineering/Chemical Equilibrium.md",
     "Drawing 2025-09-30 16.58.35.excalidraw.md",
     "Excalidraw/Drawing 2025-09-30 17.31.39.excalidraw.md",
