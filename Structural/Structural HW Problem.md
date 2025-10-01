@@ -1,4 +1,4 @@
-
+#structural
 In the diagram, detect zero force members and determine the forces in members **CD, JE, and JK**
 ![[Structural HW4]]
 
@@ -29,3 +29,13 @@ $$
 $$
 F_{CD}=-45 \text{kN (under compression)}
 $$
+Keep in mind, knowing what $F_{CD}$ is, we can calculate what $F_{ED}$ is as well,
+
+![[Structural HW4-4]]
+$$
+\sum F_{Dx}=-F_{CD}+F_{DE}=0
+$$
+$$
+F_{DE}=45\text{kN (compression)}
+$$
+
