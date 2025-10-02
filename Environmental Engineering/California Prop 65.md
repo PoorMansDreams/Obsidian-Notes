@@ -1,3 +1,4 @@
+#laws
 Prop 65, officially the **Safe Drinking Water and Toxic Enforcement Act of 1986**, is a California law intended to protect the state's drinking water sources from being contaminated with chemicals known to cause cancer, birth defects, or other reproductive harm, and to require businesses to inform the public about exposures to such chemicals.
 
 |Action/Requirement|What Prop 65 Does|Key Impact|

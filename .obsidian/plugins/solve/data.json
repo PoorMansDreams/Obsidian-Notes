@@ -1,6 +1,6 @@
 {
   "engine": {
-    "explicitMode": false
+    "explicitMode": true
   },
   "interface": {
     "renderResultEndOfLine": false,
@@ -51,7 +51,7 @@
   },
   "floatResult": {
     "enableSeperator": false,
-    "decimalPlaces": 2
+    "decimalPlaces": 8
   },
   "percentageResult": {
     "enableSeperator": false,

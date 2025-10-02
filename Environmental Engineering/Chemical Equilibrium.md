@@ -1,4 +1,4 @@
- #environmental
+#chemistry
 * The state where the concentration of all reactants and products remain constant with time.  
 * On the molecular level, there is frantic activity. Equilibrium is not static but is a highly dynamic situation.  
 Example: the flow of cars across a bridge connecting two islands  
