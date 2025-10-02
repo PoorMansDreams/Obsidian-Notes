@@ -4,44 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "720d7a85d30caebc",
+        "id": "18d8e13c1d5ec4fc",
         "type": "tabs",
         "children": [
           {
-            "id": "38b1191b88ad5aee",
+            "id": "b13e54c0c946f563",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Civil Statistics/Probability Distribution.md",
+                "file": "Structural/Structural HW Problem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probability Distribution"
+              "title": "Structural HW Problem"
             }
-          }
-        ]
-      },
-      {
-        "id": "9efa04be4b9244c0",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "74cdfc54f2f642b8",
+            "id": "67a9d9b539f1d28c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github link.md",
+                "file": "Environmental Engineering/Stoichiometry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github link"
+              "title": "Stoichiometry"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,16 +177,6 @@
             }
           },
           {
-            "id": "875fb414729ee40e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "2702b62be9a5804a",
             "type": "leaf",
             "state": {
@@ -203,10 +188,30 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "9fc5fe8429099acb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "875fb414729ee40e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Environmental Engineering/Stoichiometry.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stoichiometry"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 601.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,43 +222,44 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "280e2f858ff3c895",
   "lastOpenFiles": [
-    "Transport Engineering/greenhouse.md",
-    "Transport Engineering/Pedestrian Planning.md",
-    "Transport Engineering/Measure Transit Accessibility.md",
-    "Structural/Structural HW Problem.md",
-    "Structural",
-    "Pictures/Pasted image 20250929144325.png",
-    "Pictures/Pasted image 20250929141616.png",
-    "Excalidraw/Structural HW4.md",
-    "Excalidraw/Structural HW4-3.md",
-    "Excalidraw/Structural HW4-4.md",
-    "Excalidraw/Structural HW4-2.md",
-    "Excalidraw/Driveway.md",
-    "Excalidraw",
-    "Environmental Engineering/Stoichiometry.md",
+    "California Prop 65.md",
     "Environmental Engineering/normalities.md",
     "Environmental Engineering/Hardness.md",
     "Environmental Engineering/Discussion 3.md",
     "Environmental Engineering/Chemical Equilibrium.md",
+    "Environmental Engineering/California Prop 65.md",
+    "Structural/Structural HW Problem.md",
+    "Environmental Engineering/Stoichiometry.md",
+    "Transport Engineering/California Prop 65.md",
+    "Excalidraw/Structural HW4.md",
+    "Excalidraw/Driveway.md",
+    "Civil Statistics/Poisson Distribution.md",
+    "Civil Statistics/Probability Distribution.md",
+    "Github link.md",
+    "Transport Engineering/greenhouse.md",
+    "Transport Engineering/Pedestrian Planning.md",
+    "Transport Engineering/Measure Transit Accessibility.md",
+    "Structural",
+    "Pictures/Pasted image 20250929144325.png",
+    "Pictures/Pasted image 20250929141616.png",
+    "Excalidraw/Structural HW4-3.md",
+    "Excalidraw/Structural HW4-4.md",
+    "Excalidraw/Structural HW4-2.md",
+    "Excalidraw",
     "Environmental Engineering",
     "Civil Statistics/Exam 1 Prep Civil Stats.md",
-    "California Prop 65.md",
     "Pictures/Pasted image 20250924101548.png",
     "Civil Statistics/Binomial Distributions.md",
-    "Civil Statistics/Probability Distribution.md",
     "Civil Statistics/Hypergeometric Distribution.md",
-    "Civil Statistics/Poisson Distribution.md",
     "Civil Statistics/Civil Engineering Probability and Statistics.md",
     "Civil Statistics/Distribution Excel Functions.md",
-    "Github link.md",
     "Civil Statistics/Discrete Uniform Distribution.md",
-    "2025-09-26.md",
-    "Untitled.md",
     "Transport Engineering",
     "Pictures/Pasted image 20250925174551.png",
     "Civil Statistics",
