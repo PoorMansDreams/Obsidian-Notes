@@ -1,3 +1,4 @@
+#chemistry
 Every chemical reaction needs the same number of elements on both sides, balance this equation
 
 $$
