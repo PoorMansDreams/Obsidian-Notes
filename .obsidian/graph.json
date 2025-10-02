@@ -48,13 +48,6 @@
         "a": 1,
         "rgb": 5419488
       }
-    },
-    {
-      "query": "bruhbruh",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
     }
   ],
   "collapse-display": true,
@@ -67,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9492391990467339,
+  "scale": 1.3308171229622094,
   "close": true
 }
