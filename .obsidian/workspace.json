@@ -11,14 +11,24 @@
             "id": "f218bf65eec36f25",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "813299a28c055010",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Environmental Engineering/Discussion 3.md",
+                "file": "Environmental Engineering/Environmental HW 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discussion 3"
+              "title": "Environmental HW 1"
             }
           },
           {
@@ -35,7 +45,8 @@
               "title": "Structural HW Problem"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Environmental Engineering/Discussion 3.md",
+                "file": "Environmental Engineering/Environmental HW 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Discussion 3"
+              "title": "Backlinks for Environmental HW 1"
             }
           },
           {
@@ -166,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Environmental Engineering/Discussion 3.md",
+                "file": "Environmental Engineering/Environmental HW 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Discussion 3"
+              "title": "Outline of Environmental HW 1"
             }
           },
           {
@@ -222,16 +233,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f218bf65eec36f25",
+  "active": "813299a28c055010",
   "lastOpenFiles": [
-    "Pasted image 20251001144954.png",
-    "Environmental Engineering/Discussion 3.md",
-    "Pasted image 20251001145001.png",
     "Structural/Structural HW Problem.md",
-    "Environmental Engineering/California Prop 65.md",
+    "Environmental Engineering/Environmental HW 1.md",
+    "Environmental Engineering/Hardness.md",
     "Environmental Engineering/normalities.md",
+    "Environmental Engineering/California Prop 65.md",
+    "Environmental Engineering/Discussion 3.md",
     "Environmental Engineering/Chemical Equilibrium.md",
     "Environmental Engineering/Stoichiometry.md",
+    "Pasted image 20251001144954.png",
+    "Pasted image 20251001145001.png",
     "Transport Engineering/California SB 535 Act.md",
     "Excalidraw/Driveway.md",
     "Transport Engineering/Senate Bill 1.md",
@@ -252,7 +265,6 @@
     "Transport Engineering/Sustainable Transport.md",
     "Drawing 2025-09-30 16.58.35.excalidraw.md",
     "Excalidraw/Drawing 2025-09-30 17.31.39.excalidraw.md",
-    "Transport Engineering/greenhouse.md",
     "Pasted image 20250930171114.png",
     "Pasted image 20250930165803.png",
     "Excalidraw",
