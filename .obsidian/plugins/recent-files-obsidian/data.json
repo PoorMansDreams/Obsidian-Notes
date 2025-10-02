@@ -5,16 +5,20 @@
       "path": "Environmental Engineering/Environmental HW 1.md"
     },
     {
+      "basename": "normalities",
+      "path": "Environmental Engineering/normalities.md"
+    },
+    {
+      "basename": "Github link",
+      "path": "Github link.md"
+    },
+    {
       "basename": "Structural HW Problem",
       "path": "Structural/Structural HW Problem.md"
     },
     {
       "basename": "Hardness",
       "path": "Environmental Engineering/Hardness.md"
-    },
-    {
-      "basename": "normalities",
-      "path": "Environmental Engineering/normalities.md"
     },
     {
       "basename": "California Prop 65",
@@ -111,10 +115,6 @@
     {
       "basename": "Hypergeometric Distribution",
       "path": "Civil Statistics/Hypergeometric Distribution.md"
-    },
-    {
-      "basename": "Github link",
-      "path": "Github link.md"
     },
     {
       "basename": "Pasted image 20250924101548",
