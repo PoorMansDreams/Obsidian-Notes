@@ -51,7 +51,5 @@ $$
 $$
 \frac{0.00109166\text{ eq}}{\text{L}}\times \frac{100.0869\text{ g CaCO}_3{}}{2\text{ eq}} =\frac{0.0546\text{ g}}{\text{L}}=\frac{54.6\text{ mg}}{\text{L}} \text{ of CaCO}_{3}
 $$
+Closest option is **$\boxed{1.1 \frac{\text{meq}}{\text{L}}}$** 
 
-
-
-changing
