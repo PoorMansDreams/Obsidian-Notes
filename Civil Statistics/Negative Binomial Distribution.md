@@ -1,0 +1,2 @@
+![[Pasted image 20250924101754.png]]
+more Probability
