@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "bruhbruh",
+      "query": "life",
       "color": {
         "a": 1,
         "rgb": 5395168
@@ -67,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3444669157796582,
-  "close": false
+  "scale": 0.5568842900792584,
+  "close": true
 }
