@@ -65,7 +65,7 @@
     "paddingZeros": 8
   },
   "unitOfMeasurementResult": {
-    "decimalPlaces": 2,
+    "decimalPlaces": 5,
     "unitNames": false
   }
 }
