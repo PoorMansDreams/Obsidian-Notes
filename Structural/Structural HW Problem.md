@@ -16,7 +16,8 @@ $$
 $$
 Ay=37.50
 $$
-#### 2. Remove Zero-Force members and Cut the beam 
+#### 2. Remove Zero-Force members and Cut the beam (CD)
+
 
 ![[Structural HW4-2]]
 
@@ -27,7 +28,7 @@ $$
 \sum M_{J}=60\cdot 4+60\cdot 8-37.5\cdot 12+F_{CD}\cdot 6=0
 $$
 $$
-F_{CD}=-45 \text{kN (under compression)}
+\boxed{F_{CD}=-45 \text{kN (under compression)}}
 $$
 Keep in mind, knowing what $F_{CD}$ is, we can calculate what $F_{ED}$ is as well,
 
@@ -39,3 +40,24 @@ $$
 F_{DE}=45\text{kN (compression)}
 $$
 
+#### 3. Find JE 
+![[Structural HW4-5]]
+![[Structural HW4 5.1]]
+$$
+\tan(\theta)=\frac{5}{4}
+$$
+$$
+\theta=\tan^{-1}\left( \frac{5}{4} \right)=51.34^\circ
+$$
+$$
+F_{JEx}=F_{JE}\cos(51.34^\circ)
+$$
+$$
+\sum M_{K}=-75\cdot 4-75\cdot 8+45\cdot 5-F_{JEx}\cdot  5=0
+$$
+$$
+F_{JE}\cos(51.34^\circ)=135
+$$
+$$
+\boxed{F_{JE}=216.104\text{ kN}}
+$$
