@@ -50,7 +50,7 @@
       }
     },
     {
-      "query": "life",
+      "query": "bruhbruh",
       "color": {
         "a": 1,
         "rgb": 5395168
@@ -67,6 +67,11 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
+<<<<<<< HEAD
   "scale": 0.5568842900792584,
   "close": false
+=======
+  "scale": 0.3444669157796582,
+  "close": true
+>>>>>>> origin/Laptop
 }
