@@ -34,3 +34,7 @@ $$\frac{90g}{1} \times \frac{1}{160g}\times \frac{2}{1}\times \frac{56g}{1}=63g$
 The limiting reactant is the aluminum because it would give 62.22g of Fe before it runs out. 
 
 [[Chemical Equilibrium]]
+
+[[Le Chatelier’s Principle]]
+
+[[Acids and Bases]]

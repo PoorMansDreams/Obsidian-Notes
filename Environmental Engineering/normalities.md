@@ -8,3 +8,6 @@ $$
 \frac{meq}{L}
 $$
 Easy way to calculate this is just to multiply the Molarity by the charge of the ion
+
+So $Mg^{+2}$ with a concentration of $3\frac{\text{mol}}{\text{L}}$ would have a normality of 2 times 3, or $6 \frac{\text{eq}}{L}$
+
