@@ -15,4 +15,4 @@ a large $K_a$ means strong acid, while a small $K_a$ means weaker acid.
 | Equilibrium concentration of H+ compared with original concentration of HA | [H⁺] ≈ [HA]₀                   | [H⁺] « [HA]₀                     |
 | Strength of conjugate base compared with that of water                     | A- much weaker base than water | A- much stronger base than water |
 
-
+![[Pasted image 20251006144659.png]]
