@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Excel Functions For Standard Deviation",
+      "path": "Excel Functions For Standard Deviation.md"
+    },
+    {
+      "basename": "Normal Distribution",
+      "path": "Civil Statistics/Normal Distribution.md"
+    },
+    {
+      "basename": "Poisson Distribution",
+      "path": "Civil Statistics/Poisson Distribution.md"
+    },
+    {
+      "basename": "Probability Distribution",
+      "path": "Civil Statistics/Probability Distribution.md"
+    },
+    {
       "basename": "Distribution Excel Functions",
       "path": "Civil Statistics/Distribution Excel Functions.md"
     },
     {
       "basename": "Binomial Distributions",
       "path": "Civil Statistics/Binomial Distributions.md"
-    },
-    {
-      "basename": "Normal Distribution",
-      "path": "Civil Statistics/Normal Distribution.md"
     },
     {
       "basename": "Continuous Probability Distributions",
@@ -21,16 +33,8 @@
       "path": "Civil Statistics/Discrete Uniform Distribution.md"
     },
     {
-      "basename": "Probability Distribution",
-      "path": "Civil Statistics/Probability Distribution.md"
-    },
-    {
       "basename": "Civil Engineering Probability and Statistics",
       "path": "Civil Statistics/Civil Engineering Probability and Statistics.md"
-    },
-    {
-      "basename": "Poisson Distribution",
-      "path": "Civil Statistics/Poisson Distribution.md"
     },
     {
       "basename": "Hypergeometric Distribution",
