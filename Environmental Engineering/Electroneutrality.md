@@ -1,3 +1,4 @@
+#chemistry
 Electroneutrality is a equation that should be satisfied if they are to be Electroneutral.
 $$
 \sum_{i} Z_{i}C_{i}

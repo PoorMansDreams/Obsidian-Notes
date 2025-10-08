@@ -1,3 +1,4 @@
+#chemistry
 a) Concentration case: changing the concentration of a chemical will shift the equilibrium to the side that would reduce that change in concentration  
 
 N 2 + 3H 2 ↔ 2NH3  

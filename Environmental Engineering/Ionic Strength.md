@@ -1,3 +1,4 @@
+#chemistry
 Ionic strength can be calculated by using
 $$
 I=\frac{1}{2}\sum_{i}  (C_{i}Z_{i}^2)
