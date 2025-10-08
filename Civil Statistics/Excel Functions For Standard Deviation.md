@@ -1,3 +1,4 @@
+#probability 
 ```
 =STANDARDIZE(X, mean, standard_deviation)
 ```
