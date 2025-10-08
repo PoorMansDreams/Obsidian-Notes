@@ -5,6 +5,7 @@
 
 `=BINOM.DIST(4, 100, 0.005, FALSE)`
 `=BINOM.DIST(successes, Trials, Probability, T/F)` 
+`=BINOM.DIST.RANGE(Trials, Probability, a, b)` 
 
 Use Cumulative if X<=x
 
