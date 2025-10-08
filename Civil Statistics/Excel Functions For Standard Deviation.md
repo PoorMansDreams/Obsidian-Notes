@@ -25,4 +25,3 @@ Gives us $Z$ when we give probability
 =NORM.INV(probability, mean, standard_deviation)
 ```
 Gives us $X$ directly given probability
-(0.955-0.683)/2=
