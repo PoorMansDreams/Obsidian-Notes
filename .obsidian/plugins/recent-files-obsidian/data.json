@@ -5,6 +5,14 @@
       "path": "Civil Statistics/Excel Functions For Standard Deviation.md"
     },
     {
+      "basename": "Distribution Excel Functions",
+      "path": "Civil Statistics/Distribution Excel Functions.md"
+    },
+    {
+      "basename": "Binomial Distributions",
+      "path": "Civil Statistics/Binomial Distributions.md"
+    },
+    {
       "basename": "Normal Distribution",
       "path": "Civil Statistics/Normal Distribution.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "Probability Distribution",
       "path": "Civil Statistics/Probability Distribution.md"
-    },
-    {
-      "basename": "Distribution Excel Functions",
-      "path": "Civil Statistics/Distribution Excel Functions.md"
-    },
-    {
-      "basename": "Binomial Distributions",
-      "path": "Civil Statistics/Binomial Distributions.md"
     },
     {
       "basename": "Continuous Probability Distributions",
