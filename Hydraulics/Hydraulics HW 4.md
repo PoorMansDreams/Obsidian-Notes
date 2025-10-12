@@ -1,10 +1,12 @@
- 29.90000000 29.90000000 29.90000000 29.90000000 29.90000000 29.90000000 #hydraulics
+ 29.90000000 29.90000000 29.90000000 29.90000000 29.90000000 29.90000000 10 7.50000000 #hydraulics
 
 #### Problem 1
 
 For the following system, continue the solution provided below for one new guess of HJ. (What is your updated guess for HJ given the calculated. Explain your reasons
 
 ![[Hydraulics HW4-1]]
+
+##### First Iteration
 
 Sample Calc for first iteration, guess $H_J=5170.1 \text{ ft}$ 
 
@@ -53,14 +55,123 @@ $Q_{3}=A_{3}V_{3}=\frac{\pi}{4}\cdot4^2\times 22.42=281.74 \frac{\text{ ft}^3}{\
 | 1      | 0.00013 | 0.0127  | 1333 | 29.9     | 10.68             | 2.97E+06 | 0.0132     | 75.49       |
 | 2      | 0.00008 | 0.0115  | 400  | 0.1      | 1.18              | 5.48E+05 | 0.0141     | 23.17       |
 | 3      | 0.0001  | 0.012   | 750  | 70.1     | 22.42             | 8.30E+06 | 0.0123     | 281.74      |
-Check flow rate sum.
-$$
-\sum Q=Q_{1}-Q_{2}-Q_{3}
-$$
+
 Using Revised $f$
 
 | Pipe # | e/D     | f*     | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​   | Revised f∗ | Q (ft³/sec) |
 | ------ | ------- | ------ | ---- | -------- | ----------------- | -------- | ---------- | ----------- |
-| 1      | 0.00013 | 0.0132 | 1333 | 29.9     | 10.68             | 2.97E+06 | 0.0132     | 75.49       |
-| 2      | 0.00008 | 0.0141 | 400  | 0.1      | 1.18              | 5.48E+05 | 0.0141     | 23.17       |
-| 3      | 0.0001  | 0.0123 | 750  | 70.1     | 22.42             | 8.30E+06 | 0.0123     | 281.74      |
+| 1      | 0.00013 | 0.0132 | 1333 | 29.9     | 10.46             | 2.97E+06 | 0.0132     | 75.49       |
+| 2      | 0.00008 | 0.0141 | 400  | 0.1      | 1.07              | 5.48E+05 | 0.0141     | 23.17       |
+| 3      | 0.0001  | 0.0123 | 750  | 70.1     | 22.16             | 8.30E+06 | 0.0123     | 281.74      |
+Check flow rate sum.
+$$
+\sum Q=Q_{1}-Q_{2}-Q_{3}=75.49-23.17-281.74=-229.42\frac{\text{ ft}^3}{\text{s}}
+$$
+
+Too much fluid exiting from the junction $(-Q)$, our new $H_{J}$ should be lower to increase head loss in pipe 1, decrease head loss in pipe 3 as well. 
+Increasing head loss in pipe 1 will increase velocity in pipe 1, increasing flow rate. 
+Decreasing head loss in pipe 3 will decreased velocity, decreasing flow rate. 
+
+##### Second Iteration
+
+New Guess: $H_J=5150 \text{ ft}$ 
+
+| Resevoir | Head Loss (R1-HJ) | Flow Direction |
+| -------- | ----------------- | -------------- |
+| R1       | 5200-5150= 50     | Entering       |
+| R2       | 5170-5150= 20     | Entering       |
+| R3       | 5150-5100= 50     | Exiting        |
+$$
+h_{L}=f \frac{L}{D} \frac{V^2}{2g}=0.0127 \frac{4000}{3} \frac{V^2}{2\times 32.2}=0.2629V^2
+$$
+$$
+h_{L}=50=0.2629V^2
+$$
+$$
+V=13.79
+$$
+$$
+R_{N}=\frac{VD}{v}=\frac{13.79\times3}{0.0000108}=3.83\times10^6
+$$
+
+
+| Pipe # | e/D     | Turb. f | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------- | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.0127  | 1333 | 50       | 13.79             | 3.83+06 | 0.0129     |             |
+| 2      | 0.00008 | 0.0115  | 400  | 20       | 16.73             | 7.75+06 | 0.0118     |             |
+| 3      | 0.0001  | 0.012   | 750  | 50       | 18.92             | 7.01+06 | 0.0122     |             |
+revised $f$
+$Q_{1}=A_{1}V_{1}=\frac{\pi}{4}\cdot3^2\times 13.68=32.24 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{2}=A_{2}V_{2}=\frac{\pi}{4}\cdot 5^2 \times 16.51=65.87 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{3}=A_{3}V_{3}=\frac{\pi}{4}\cdot4^2\times 18.75=59.93 \frac{\text{ ft}^3}{\text{s}}$
+
+| Pipe # | e/D     | f*     | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------ | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.0129 | 1333 | 50       | 13.68             | 3.80+06 | 0.0129     | 96.73       |
+| 2      | 0.00008 | 0.0118 | 400  | 20       | 16.52             | 7.64+06 | 0.0118     | 324.35      |
+| 3      | 0.0001  | 0.0122 | 750  | 50       | 18.76             | 6.95+06 | 0.0122     | 235.74      |
+
+Check flow rate sum.
+$$
+\sum Q=Q_{1}+Q_{2}-Q_{3}=96.73+324.35-235.74=185.34\frac{\text{ ft}^3}{\text{s}}
+$$
+positive flow rate sum indicates too much inflow, need more fluid to exit. Next $H_{J}$ should be a higher, 
+
+##### Third Iteration
+$H_J=5160$
+
+| Resevoir | Head Loss (R1-HJ) | Flow Direction |
+| -------- | ----------------- | -------------- |
+| R1       | 5200-5160= 40     | Entering       |
+| R2       | 5170-5160= 10     | Entering       |
+| R3       | 5160-5100= 60     | Exiting        |
+
+| Pipe # | e/D     | Turb. f | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------- | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.0127  | 1333 | 40       | 12.33             | 3.8+06  | 0.013      |             |
+| 2      | 0.00008 | 0.0115  | 400  | 10       | 11.83             | 7.64+06 | 0.0119     |             |
+| 3      | 0.0001  | 0.012   | 750  | 60       | 20.72             | 6.95+06 | 0.0122     |             |
+Revised $f$
+$Q_{1}=A_{1}V_{1}=\frac{\pi}{4}\cdot3^2\times 12.19=86.18 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{2}=A_{2}V_{2}=\frac{\pi}{4}\cdot 5^2 \times 11.63=228.38 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{3}=A_{3}V_{3}=\frac{\pi}{4}\cdot4^2\times 20.54=258.23 \frac{\text{ ft}^3}{\text{s}}$
+
+| Pipe # | e/D     | f*     | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------ | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.013  | 1333 | 40       | 12.19             | 3.38+06 | 0.013      | 86.18       |
+| 2      | 0.00008 | 0.0119 | 400  | 10       | 11.63             | 7.75+06 | 0.0119     | 228.38      |
+| 3      | 0.0001  | 0.0122 | 750  | 60       | 20.54             | 7.01+06 | 0.0122     | 258.23      |
+Check flow rate sum.
+$$
+\sum Q=Q_{1}+Q_{2}-Q_{3}=86.18+228.38-258.23=56.33\frac{\text{ ft}^3}{\text{s}}
+$$
+positive flow rate sum indicates too much inflow, need more fluid to exit. Next $H_{J}$ should be a bit higher, we are approaching 0, so this value is much closer.
+##### Last Iteration
+
+![[Pasted image 20251012030839.png]]
+
+from the graph, we can hopefully obtain a Q sum of zero at a height of $H_J=5163.54$
+
+| Resevoir | Head Loss (R1-HJ) | Flow Direction |
+| -------- | ----------------- | -------------- |
+| R1       | 5200-5162.5=36.46 | Entering       |
+| R2       | 5170-5162.5=6.46  | Entering       |
+| R3       | 5162.5-5100=63.54 | Exiting        |
+
+| Pipe # | e/D     | Turb. f | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------- | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.0127  | 1333 | 36.46    | 11.776            | 3.27+06 | 0.013      |             |
+| 2      | 0.00008 | 0.0115  | 400  | 6.46     | 9.51              | 4.4+06  | 0.0119     |             |
+| 3      | 0.0001  | 0.012   | 750  | 63.54    | 21.32             | 7.89+06 | 0.0122     |             |
+
+| Pipe # | e/D     | Turb. f | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
+| ------ | ------- | ------- | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
+| 1      | 0.00013 | 0.013   | 1333 | 36.46    | 11.64             | 3.27+06 | 0.013      | 82.28       |
+| 2      | 0.00008 | 0.0119  | 400  | 6.46     | 9.35              | 4.4+06  | 0.0119     | 183.56      |
+| 3      | 0.0001  | 0.0122  | 750  | 63.54    | 21.15             | 7.89+06 | 0.0122     | 265.74      |
+
+Check flow rate sum.
+$$
+\sum Q=Q_{1}+Q_{2}-Q_{3}=82.28+183.56-265.74=0.1\frac{\text{ ft}^3}{\text{s}}
+$$
+close enough! 
