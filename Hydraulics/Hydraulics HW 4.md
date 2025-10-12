@@ -178,3 +178,73 @@ close enough!
 
 #### Problem 2
 ![[Hydraulics HW4-2]]
+
+Inflow from $Q_a=1 \frac{\text{ m}^3}{\text{s}}$ , from a tank 355 meters high, $e=0.36 \text{ mm}$
+
+Sample Calc for pipe AB
+$V=\frac{Q}{A}$
+$$
+h_{f}=f \frac{L}{D} \frac{V^2}{2g}=[f \frac{L}{D} \frac{1}{2gA^2}]Q^2=
+KQ^2$$
+$\frac{e}{D}=\frac{0.00036}{0.4}=0.0009$
+from moody, $f=0.0191$
+$$
+f \frac{L}{D} \frac{1}{2gA^2}=0.0191 \cdot \frac{300}{0.4}\cdot \frac{1}{2\cdot 9.81\cdot \left( \frac{\pi}{4}\cdot0.4^2 \right)^2}=46 \frac{\text{s}^2}{\text{m}^5}
+$$
+
+| Pipe | Q (m3/sec) | Length (m) | Diameter (m) | e/D    | f∗     | K (sec2/m5) |
+| ---- | ---------- | ---------- | ------------ | ------ | ------ | ----------- |
+| AB   | 0.45       | 300        | 0.4          | 0.0009 | 0.0191 | 46          |
+| AC   | 0.55       | 300        | 0.45         | 0.0008 | 0.0186 | 25          |
+| BD   | 0.5        | 400        | 0.4          | 0.0009 | 0.0191 | 62          |
+| CE   | 0.5        | 400        | 0.4          | 0.0009 | 0.0191 | 62          |
+| CB   | 0.05       | 300        | 0.2          | 0.0018 | 0.0228 | 1764        |
+| ED   | 0.05       | 300        | 0.2          | 0.0018 | 0.0228 | 1764        |
+
+##### First Iteration
+
+| Loop | Pipe | Q    | K    | $h_{f}$ | $\frac{h_{f}}{Q}$ | New Q |
+| ---- | ---- | ---- | ---- | ------- | ----------------- | ----- |
+| 1 cw | AB   | 0.45 | 46   | 9.38    | 20.9              | 0.461 |
+| 1 cc | AC   | 0.55 | 25   | 7.56    | 13.8              | 0.539 |
+| 1 cc | CB   | 0.05 | 1764 | 4.41    | 88.2              | 0.039 |
+Correction Factor
+$$\Delta Q=\frac{\sum h_{fc}-\sum h_{fcc}}{2\left( \sum \frac{h_{fc}}{Q_{c}}-\sum \frac{h_{fcc}}{Q_{cc}} \right)}$$
+$$
+\Delta Q=\frac{9.38-7.56-4.41}{2(20.9+13.8+88.2)}=-0.0105
+$$
+negative $\Delta Q$ means that there's too much counter clockwise, we subtract from the counter clockwise $Q$ and add to the clockwise $Q$.
+
+| Loop | Pipe | Q     | K    | $h_{f}$ | $\frac{h_{f}}{Q}$ | New Q |
+| ---- | ---- | ----- | ---- | ------- | ----------------- | ----- |
+| 2 cw | CB   | 0.039 | 1764 | 2.75    | 69.6              | 0.043 |
+| 2 cw | BD   | 0.5   | 62   | 15.45   | 30.9              | 0.504 |
+| 2 cc | CE   | 0.5   | 62   | 15.45   | 30.9              | 0.496 |
+| 2 cc | ED   | 0.05  | 1764 | 4.41    | 88.2              | 0.046 |
+$$
+\Delta Q=\frac{2.75+15.45-15.45-4.41}{2(69.6+30.9+30.9+88.2)}=-0.0038
+$$
+once again, we add to the clockwise, while subtracting from the counter clockwise.
+
+
+##### Second Iteration
+| Loop | Pipe | Q     | K    | $h_{f}$ | $\frac{h_{f}}{Q}$ | New Q  |
+| ---- | ---- | ----- | ---- | ------- | ----------------- | ------ |
+| 1 cw | AB   | 0.461 | 46   | 9.77    | 21.206            | 0.464  |
+| 1 cc | AC   | 0.539 | 25   | 7.26    | 13.475            | 0.542  |
+| 1 cc | CB   | 0.043 | 1764 | 3.26    | 75.852            | 0.0396 |
+Correction Factor
+$$
+\Delta Q=\frac{9.77-7.26-3.26}{2(21.206+13.475+75.852)}=-0.003
+$$
+
+
+| Loop | Pipe | Q      | K    | $h_{f}$ | $\frac{h_{f}}{Q}$ | New Q |
+| ---- | ---- | ------ | ---- | ------- | ----------------- | ----- |
+| 2 cw | CB   | 0.0396 | 1764 | 2.76    | 69.85             | 0.407 |
+| 2 cw | BD   | 0.504  | 62   | 15.75   | 31.248            | 0.505 |
+| 2 cc | CE   | 0.496  | 62   | 15.25   | 30.752            | 0.495 |
+| 2 cc | ED   | 0.046  | 1764 | 3.73    | 81.144            | 0.045 |
+$$
+\Delta Q=\frac{2.76+15.75-15.25-3.73}{2(69.85+31.248+30.752+81.144)}=-0.001
+$$
