@@ -21,7 +21,7 @@ Per- and Polyfluoroalkyl Substances, these substances stay forever in the enviro
 Some examples of PFAS
 
 - **Non-stick coatings** (like Teflon cookware).
-    
+	
 - **Water- and stain-resistant coatings** for fabrics, carpets, and clothing.
     
 - **Firefighting foams** (Aqueous Film-Forming Foam - AFFF).

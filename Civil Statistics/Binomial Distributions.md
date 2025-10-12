@@ -11,3 +11,4 @@ So the times stopped being zero means that you **avoided** the probability $p$ w
 ![[Pasted image 20250924101548.png]]
 =======
 ![[Pasted image 20250924101548.png]]
+

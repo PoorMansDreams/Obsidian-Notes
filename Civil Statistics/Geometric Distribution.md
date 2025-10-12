@@ -1,3 +1,4 @@
+#probability
 $$
 f(x)=(1-p)^{x-1}p
 $$
