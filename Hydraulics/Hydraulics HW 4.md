@@ -101,9 +101,9 @@ $$
 | 2      | 0.00008 | 0.0115  | 400  | 20       | 16.73             | 7.75+06 | 0.0118     |             |
 | 3      | 0.0001  | 0.012   | 750  | 50       | 18.92             | 7.01+06 | 0.0122     |             |
 revised $f$
-$Q_{1}=A_{1}V_{1}=\frac{\pi}{4}\cdot3^2\times 13.68=32.24 \frac{\text{ ft}^3}{\text{s}}$
-$Q_{2}=A_{2}V_{2}=\frac{\pi}{4}\cdot 5^2 \times 16.51=65.87 \frac{\text{ ft}^3}{\text{s}}$
-$Q_{3}=A_{3}V_{3}=\frac{\pi}{4}\cdot4^2\times 18.75=59.93 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{1}=A_{1}V_{1}=\frac{\pi}{4}\cdot3^2\times 13.68=96.73 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{2}=A_{2}V_{2}=\frac{\pi}{4}\cdot 5^2 \times 16.51=324.35 \frac{\text{ ft}^3}{\text{s}}$
+$Q_{3}=A_{3}V_{3}=\frac{\pi}{4}\cdot4^2\times 18.75=235.74 \frac{\text{ ft}^3}{\text{s}}$
 
 | Pipe # | e/D     | f*     | L/D  | hf​ (ft) | Velocity (ft/sec) | $R_N$​  | Revised f∗ | Q (ft³/sec) |
 | ------ | ------- | ------ | ---- | -------- | ----------------- | ------- | ---------- | ----------- |
@@ -115,7 +115,7 @@ Check flow rate sum.
 $$
 \sum Q=Q_{1}+Q_{2}-Q_{3}=96.73+324.35-235.74=185.34\frac{\text{ ft}^3}{\text{s}}
 $$
-positive flow rate sum indicates too much inflow, need more fluid to exit. Next $H_{J}$ should be a higher, 
+positive flow rate sum indicates too much inflow, need more fluid to exit. Next $H_{J}$ should be higher, 
 
 ##### Third Iteration
 $H_J=5160$
@@ -248,4 +248,23 @@ $$
 $$
 \Delta Q=\frac{2.76+15.75-15.25-3.73}{2(69.85+31.248+30.752+81.144)}=-0.001
 $$
-Pressure at A is simply $P_{A}=\gamma h=9790\times 355=3475.45 \text{ kPa}$ 
+
+Pressure Calculations, $\gamma=9.81\text{ kN/m}$
+
+
+$$
+\frac{P_{A}}{\gamma}+z_{A}+\frac{V^2}{2g}=\frac{P_{B}}{\gamma}+z_{B}+\frac{V^2}{2g}-h_{f}
+$$
+$$
+\frac{P_{B}}{\gamma}=z_{B}-z_{A}=39.5-h_{f}
+$$
+
+| Junction | Elevation (m) |     | $h_{f}$ (m) | Elevation Head (m) | Total Head (m) | Pressure (kPa) $H\times \gamma$ |
+| -------- | ------------- | --- | ----------- | ------------------ | -------------- | ------------------------------- |
+| A        | 355           |     |             |                    |                | 0                               |
+| B        | 315.5         | AB  | 9.77        | 39.5               | 29.73          | 291.6                           |
+| C        | 313.8         | AC  | 7.26        | 41.2               | 33.94          | 332.95                          |
+| D        | 312.3         | ABD | 9.77+15.75  | 42.7               | 17.18          | 168.53                          |
+| E        | 314.1         | ACE | 7.26+15.25  | 40.9               | 18.39          | 180.401                         |
+
+Junction D does not reach the required 170 kPa minimum. 
