@@ -175,3 +175,6 @@ $$
 \sum Q=Q_{1}+Q_{2}-Q_{3}=82.28+183.56-265.74=0.1\frac{\text{ ft}^3}{\text{s}}
 $$
 close enough! 
+
+#### Problem 2
+![[Hydraulics HW4-2]]
