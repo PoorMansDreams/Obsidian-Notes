@@ -3,7 +3,7 @@
 Determine the internal normal force, shear force, and moment at Point C. 
 Normal force = 0, no horizontal forces on the beam.
 $$
-\sum M_{A}=-23\times\frac{9\times 400}{2}-10\times 300\times 20+20\times By=0
+\sum M_{A}=-23\times\frac{9\times 400}{2}-6\times 300\times 20+20\times By=0
 $$
 $By=5070$
 $Ay=2730$
