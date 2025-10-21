@@ -132,3 +132,40 @@ $$
 ![[Pasted image 20251020152139.png]]
 
 ##### Example 5
+Some domestic wastewater has 30 mg/L of nitrogen in the form of either organic nitrogen or ammonia. Assuming that very few new cells of bacteria are formed during the nitrification of the waste (that is, the oxygen demand can be found from a simple stoichiometry analysis of the nitrification reactions), find  
+
+a. The ultimate nitrogenous oxygen demand 
+simply convert 30 mg/L of nitrogen to mg/L of oxygen using stoich
+$$
+NBOD=30 \times \frac{17}{14}\times \frac{64}{17} = 137 \frac{\text{mg }\text{O}_{2}}{L}
+$$
+b. The ratio of the ultimate NBOD to the concentration of nitrogen in the waste.
+$$
+\frac{\text{ultimate NBOD}}{\text{concentration of N}}=\frac{137}{30}=4.57 \frac{\text{mg}\text{ O}_{2}}{\text{mg N}}
+$$
+
+Ultimate NBOD = $4.57\times \text{TKN}$ (Total Kjeldahl Nitrogen)
+TKN = total concentration of (organic nitrogen + ammonia nitrogen) in wastewater
+so if we have something like 15-50 mg/L of TKN 
+then Ultimate NBOD would be 68.55-228.5
+
+##### Other Oxygen Demand Measurements
+
+- Theoretical Oxygen Demand (ThOD)  
+	- The amount of oxygen required for the complete oxidation of organic waste (theoretical calculation)  
+- Chemical Oxygen Demand (COD)  
+	- Measures oxygen required for compounds which are not biologically degradable, e.g., industrial chemicals (phenols, benzene, pesticide..)  
+	-  Strong oxidizing chemicals are used to oxidize the organics
+
+$$
+\text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \longrightarrow 6\text{CO}_2 + 6\text{H}_2\text{O}
+$$
+in this case, the 6 oxygen is the theoretical need.
+
+ThOD > BOD,
+Ultimate BOD > BOD$_{5}$
+ThOD > COD > BOD
+$$
+\text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \xrightarrow{\text{microorganisms}} 6\text{CO}_2 + 6\text{H}_2\text{O} + \text{cells}
+
+$$
