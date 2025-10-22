@@ -1,6 +1,6 @@
 [[Probability Distribution]]
 [[Exam 1 Prep Civil Stats]]
-[[Linear Transformation]]
+[[Linear Combinations]]
 Professor Redman, 
 
 
