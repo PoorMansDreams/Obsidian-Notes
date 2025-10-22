@@ -1,3 +1,4 @@
+#structural 
 Three E's in Structural Design
 - Efficiency 
 - Economy
@@ -19,4 +20,3 @@ choice of material
 Permanence: very high quality materials that can be recycled and used for future construction
 
 Temporary: Short lifespan, low initial cost, Renewable materials, low load capacity, high stresses, high maintenance. 
-
