@@ -96,7 +96,26 @@ for probability, we need to do 1-0.0001 to obtain the right side of the standard
 
 A U-shaped component is to be formed from the three parts A, B, and C. The picture is shown below. The length of A is normally distributed with a mean of 10 millimeters and a standard deviation of 0.1 millimeter. The thickness of parts B and C is normally distributed with a mean of 2 millimeters and a standard deviation of 0.05 millimeter. Assume all dimensions are independent.
 
+![[U Shape Probability]]
 
+1.  Determine the mean and standard deviation of the length of the gap D (in mm).
+The gap can be represented as the lengths D=A-B-C, sum of means and variances.
+$$
+\mu_{D}=\mu_{A}-\mu_{B}-\mu_{C}=10-2-2=6
+$$
+Variances gave to all be added however.
+$$
+\sigma_{D}^2=\sigma_{A}^2+\sigma_{B}^2+\sigma_{C}^2=0.1^2+0.05^2+0.05^2
+$$
+$$
+\sigma_{D}^2=0.015
+$$
+$$
+\sigma_{D}=0.1225
+$$
 
-1.  Determine the mean of the length of the gap D (in mm).
-The gap can be represented as 
+2. What is the probability that the gap D is less than 5.9 millimeters?
+For a gap LESS than 5.9 millimeters, we want P(X<5.9) using excel, 
+$$
+P(X<5.9)=0.207157
+$$
