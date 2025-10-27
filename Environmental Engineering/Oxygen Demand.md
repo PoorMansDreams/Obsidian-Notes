@@ -32,7 +32,7 @@ Five Day Standardized BOD test
 The way it works is that we measure the total amount of oxygen consumed in the first 5 days.
 ![[Pasted image 20251020143804.png]]
 
-We sometimes have to add seeded diluted water into the wastewater because there might be too much pollutants in it. 
+We sometimes have to add seeded diluted water into the wastewater because there might be too much pollutants in it. Full of Water and some seed
 
 $$
 \text{BOD}_{\text{w}}=\frac{(\text{DO}_{i}-\text{DO}_{f})-(\text{B}_{i}-\text{B}_{f})(1-\text{P})}{\text{P}}
@@ -40,7 +40,9 @@ $$
 where
 $\text{B}_{i}=\text{Initial DO of the Blank}$
 $\text{B}_{f}=\text{Final DO of the Blank}$
-$\text{P}=\frac{V_{w}}{V_{m}}$
+$\text{P}=\frac{V_{w}}{V_{m}}$ = Volume Waste Water/Volume of the Mixture
+
+
 
 ##### Example 1
 A 10 mL sample of sewage mixed with enough water to fill a 300 mL bottle has an initial DO of 9.0 mg/L. It is desirable to have at lease 2.0 mg/L drop in DO during the five-day run, and the final DO should be at least a 2.0 mg/L. For what range of BOD$_{5}$ would this dilution produce the desired results?
@@ -78,9 +80,19 @@ This is the rates of decomposition of BOD and the proportion rate of how much or
 
 Oxygen demand can be shown as 
 $$
-L_{t}=L_{o}e^{-klt}
+L_{t}=L_{o}e^{-kt}
 $$
+$$
+\text{BOD}_{t}=L_{o}(1-e^{-kt})
+$$
+$$
+\text{BOD}_{t}+L_{t}=L_{o}
+$$
+
+
 where
+
+BODt is the ultimate CBOD
 $k=$ BOD reaction rate constant
 $L_{o}=$ Total amount of BOD or the ultimate CBOD
 $L_{t}=$ amount of BOD left after time, t
@@ -168,4 +180,61 @@ ThOD > COD > BOD
 $$
 \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \xrightarrow{\text{microorganisms}} 6\text{CO}_2 + 6\text{H}_2\text{O} + \text{cells}
 
+$$
+##### Example 6
+
+Wastewater from a fruit-canning factory contains 150mg/L of fructose, what is the ThOD of this wastewater mg/L?
+
+$$
+C_{6}H_{12}O_{6}+6O_{2}\to_{6}CO_{2}+6H_{2}O
+$$
+$$
+150 \frac{mg\text{ fructose}}{L}\times \frac{192g \text{ O}_{2}}{180g \text{ fructose}}=160mg\text{ O}_{2} 
+$$
+---
+
+If a $1.67\times 10^{-3}$ M glucose solution that is completely oxidized to CO2 and H2O, find amount of oxygen mg/L required to complete the reaction
+$$
+C_{6}H_{12}O_{6}+6O_{2}\to_{6}CO_{2}+6H_{2}O
+$$
+$$
+1.67\times 10^{-3} \frac{mol}{L}\times \frac{180g}{mol}\times 10^3
+\frac{mg}{g}=\frac{301mg}{L}\text{ glucose}$$
+$$
+301 \frac{mg}{L}\text{ glucose}\times \frac{192g\text{ O}_{2}}{180g \text{ glucose}}=321g\text{ O2}
+$$
+##### Example 7 (1)
+
+A sewage is containing 150 mg/L of CH2(NH2)COOH and 40 mg/L of NH3.  
+Find the amount of oxygen (mg/L) required for oxidation of both carbon and nitrogen compounds.
+
+$$
+\begin{align*}
+\text{CH}_2(\text{NH}_2)\text{COOH} + 1.5\text{O}_2 &\longrightarrow 2\text{CO}_2 + \text{H}_2\text{O} + \text{NH}_3 \\
+\text{NH}_3 + 2\text{O}_2 &\longrightarrow \text{NO}_3^- + \text{H}_2\text{O} + \text{H}^+
+\end{align*}
+$$
+Molar mass of the sewage is 75g/mol = 75mg/mmol
+$$
+\frac{150\frac{mg}{L}}{75 \frac{mg}{mmol}}=2 \frac{mmol}{L} \text{ sewage}
+$$
+for every 1 mmol/L of the CH2(NH2)COOH, there is 1.5 mmol/L of O2, so
+$$
+2 \frac{mmol}{L}\times 1.5=3 \frac{mmol}{L} \text{ O}_{2}
+$$
+---
+MW of NH$_3$ is 17g/mol = 17mg/mmol
+$$
+\frac{40\frac{mg}{L}}{17 \frac{mg}{mmol}}=2.35 \frac{mmol}{L}\text{NH}_{3}
+$$
+from our first equation, 2 mmol/L of NH$_3$ is produced from the 150mg/L of sewage (CH2(NH2)COOH)
+so total moles of NH$_3$ is 2.35+2= 4.35 mmol/L
+
+There is 2 oxygen needed per 1 NH$_3$ so
+$$
+4.35 \frac{mmol}{L}\times 2\text{ O}_{2}=8.7 \frac{mmol}{L} \text {O}_{2}
+$$
+We cant forget about the O2 from the sewage, 
+$$
+3 \frac{mmol}{L}+8.7 \frac{mmol}{L} =11.7 \frac{mmol}{L} \text{ O}_{2}
 $$
