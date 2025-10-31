@@ -1,1 +1,0 @@
-ITS means intelligent transport systems, our infrastructure heavily rely on this. 
