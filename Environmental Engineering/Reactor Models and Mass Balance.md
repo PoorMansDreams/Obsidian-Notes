@@ -111,3 +111,16 @@ $$
 If it is in series, the residence time is just $\theta$ twice, so $2\theta$
 ![[Pasted image 20251027154325.png]]
 
+
+---
+
+Steady State Systems with nonconservative Pollutants (PFR): 
+0 = Input Rate - Output Rate + Reaction Rate
+
+Zero-order rate in PFR: $C=C_0-kt$
+First-order rate in PFR: $C=C_0e^{-kt}$
+Second-order rate in PFR: $C=\frac{C_{0}}{1+C_{0}kt}$
+
+$t$ is known as hydraulic retention time in this equation or $\theta$
+
+
