@@ -1,4 +1,4 @@
-#probability 
+s#probability 
 If we are given something like, 3 test are equally weighted, and all the tests are normally distributed, with the following recorded:
 Test 1: $X_{1}:\mu=70\text{ and } \sigma=8$
 Test 2: $X_{2}:\mu=65\text{ and } \sigma=12$
