@@ -16,3 +16,5 @@ $$
 \sigma_{x}=\frac{12.5}{\sqrt{ 16 }}= 3.125
 $$
 `=Norm.DIST(80,74,3.125,TRUE)`
+
+https://github.com/PoorMansDreams/Obsidian-Notes
