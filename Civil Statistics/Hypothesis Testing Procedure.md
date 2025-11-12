@@ -1,3 +1,5 @@
+Alternative $H_{A}$ is the claim you are testing for
+the null $H_{0}$ is the default/skeptical case 
 The steps to take to do a hypothesis test,
 given that 
 $\bar{x}=75.48$
@@ -19,6 +21,17 @@ $$
 	1. If the p-value is < 0.05, this constitutes sufficient evidence to reject the null in favor of the alternative.
 	2. If the p-value is > 0.05, the likelihood of a type I error is too great and we fail to reject the null.
 
+---
+To do this in excel,
+average: 784
+Standard Dev: 71.8656
+Count: 4
+1. Take average and standard deviation
+2. Our hypothesis, something like  $H_{A}: \mu>800$ and $H_{0}:\mu\leq 800$
+3. Our x will be the average, our mean in the function will be 800, our standard deviation will have to go through $\frac{\sigma}{\sqrt{ n }}$.
+4. Use `NORM.DIST(784,800,71.8656/sqrt(4),TRUE` 
+5. This will of course give us the left side, but we want the right (greater than) side.
+6. Just do `1-NORM.DIST(784,800,71.8656/sqrt(4),TRUE`
 ---
 
 
@@ -48,4 +61,4 @@ H_{A}:&\mu>80 \\
 P(\bar{x}>75.48)&=0.961
 \end{gather}
 $$
-since the p value is vert high, we fail to reject the null. The likelihood we are wrong when we claim the mean is greater than 80 is quite high, p=0.961 
+since the p value is vert high, we fail to reject the null. The likelihood we are wrong when we claim the mean is greater than 80 is quite high, p=0.961
