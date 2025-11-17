@@ -16,7 +16,7 @@ Use Cumulative if X<=x
  
 ###### finding the probability of drawing exactly 3 black cards (K=26) in a 5-card hand (k=3, n=5) from a standard 52-card deck (N=52). The Excel/Sheets formula would be 
 
-`=HYPGEOM.DIST(3, 5, 26, 52, FALSE)`
+ww(3, 5, 26, 52, FALSE)`
 
 ###### in a basket of 10 red and 5 blue balls, find the probability of drawing exactly 3 red balls when selecting 4 balls without replacement
 
@@ -25,5 +25,5 @@ Use Cumulative if X<=x
 
 ###### Poisson Dist Tells us Number of events in a fixed interval of time or space  
 
-`=POISSON.DIST(x,mean,T/F`
-`=POISSON.DIST(Number of Events, Expected numeric Value ,T/F`
+`=POISSON.DIST(x,mean,T/F)`
+`=POISSON.DIST(Number of Events, Expected numeric Value ,T/F)`
