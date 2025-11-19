@@ -58,3 +58,9 @@ from the side with a higher head or $h$, water will flow from there to the lower
 2. Draw a line between the intermediate-head well and the spot on the above line that corresponds to the head at the intermediate well. This is an equipotential line, meaning that the head anywhere along the line should be approximately constant (i.e., h2). 
 3. Draw a line perpendicular to the equipotential line through the well with the lowest (or highest) head. This is a flow line (streamline), which means groundwater flow is in a direction parallel to this line. 4. Determine the gradient as the difference in head between the head on the equipotential and the head at the lowest (or highest) well, divided by the distance from the equipotential line to that well (L).
  ![[Pasted image 20251110142509.png]]
+
+##### Example 5.11 Estimated Hydraulic Gradient from Three Wells
+
+Two wells are drilled 200m apart, along an east-west axis. The west well has a total head of 30.2m, the east well has a 30m head. a Third well located 100m due to southeast of the east well has a total head of 30.1m. Find the magnitude and direction of the hydraulic gradient.
+
+![[Pasted image 20251110142928.png]]

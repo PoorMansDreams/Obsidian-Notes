@@ -201,9 +201,10 @@ $$
 1.67\times 10^{-3} \frac{mol}{L}\times \frac{180g}{mol}\times 10^3
 \frac{mg}{g}=\frac{301mg}{L}\text{ glucose}$$
 $$
-301 \frac{mg}{L}\text{ glucose}\times \frac{192g\text{ O}_{2}}{180g \text{ glucose}}=321g\text{ O2}
+301 \frac{mg}{L}\text{ glucose}\times \frac{192g\text{ O}_{2}}{180g \text{ glucose}}=321mg\text{ O2}
 $$
 ##### Example 7 (1)
+
 
 A sewage is containing 150 mg/L of CH2(NH2)COOH and 40 mg/L of NH3.  
 Find the amount of oxygen (mg/L) required for oxidation of both carbon and nitrogen compounds.
