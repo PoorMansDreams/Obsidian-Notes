@@ -62,3 +62,24 @@ P(\bar{x}>75.48)&=0.961
 \end{gather}
 $$
 since the p value is vert high, we fail to reject the null. The likelihood we are wrong when we claim the mean is greater than 80 is quite high, p=0.961
+
+---
+For Hypothesis tests that require direct equals, ex: 
+we want a hypothesis where it equals exactly 3.
+
+$\bar{x}=2.78$
+$\sigma=0.9$
+$n=15$
+$\mu=3$
+$$
+$$
+
+$$
+\begin{align}
+H_{0}&: \mu=3 \\
+H_{A}&:\mu \neq 3
+\end{align}
+$$
+we have to use a 2 tail distribution, which is actually pretty easy.
+`=2*NORM.DIST(2.78,3,0.9/SQRT(15),TRUE)`
+we simply multiply what we usually would do by 2
