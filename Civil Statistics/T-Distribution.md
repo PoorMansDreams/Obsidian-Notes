@@ -109,3 +109,9 @@ use `T.DIST.2T(1.88,3)` we get 0.156, as our p value. The p value is too high, w
 
 ---
 
+To calculate the degrees of freedom from two sets, we need to use this equation
+$$
+
+df = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{\left(\frac{s_1^2}{n_1}\right)^2}{n_1 - 1} + \frac{\left(\frac{s_2^2}{n_2}\right)^2}{n_2 - 1}}
+
+$$
