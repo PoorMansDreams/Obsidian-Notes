@@ -99,7 +99,7 @@ H_{0}&:\mu_{1}-\mu_{2}\not=0
 $$
 We then choose our minimum $\nu$ value, which in this case will be $\nu=4-1=3$
 
-the t equation is long as fuck, it looks like this;
+the t equation for 2 samples is long as fuck, it looks like this;
 $$
 t=\frac{\bar{x}_{1}-\bar{x}_{2}}{\sqrt{ \frac{s^2_{1}}{n_{1}}+\frac{s^2_{2}}{n_{2}} }}
 $$
