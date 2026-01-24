@@ -51,3 +51,10 @@ we can just use the [[Discrete Uniform Distribution]]
 
 All of these Distributions have long equations but we can just use [[Distribution Excel Functions]]
 
+[[Excel Functions for T-Distribution]]
+[[Sample and Population]]
+[[Confidence Interval]]
+[[T-Distribution]]
+[[Normal Distribution]]
+[[Hypothesis Testing Procedure]]
+[[Excel Functions For Standard Deviation]]

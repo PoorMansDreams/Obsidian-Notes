@@ -38,3 +38,14 @@ The limiting reactant is the aluminum because it would give 62.22g of Fe before 
 [[Le Chatelier’s Principle]]
 
 [[Acids and Bases]]
+
+[[Water]]
+
+[[Water Treatment]]
+
+[[Discussion 4]]
+
+[[Oxygen Demand]]
+
+[[Environmental HW 1]]
+
