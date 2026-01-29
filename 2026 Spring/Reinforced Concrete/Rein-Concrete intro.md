@@ -131,7 +131,21 @@ $$
 \rho_{min}=0.0033
 $$
 $$
-\rho_{max}=\rho0.004=0.85\times \beta_{1}\cdot \frac{f'c}{fy}\cdot \frac{\epsilon _{u}}{\epsilon_{u}+0.004}
+\rho_{max}=\rho0.004=0.85\times \beta_{1}\cdot \frac{f'c}{fy}\cdot \frac{\epsilon _{u}}{\epsilon_{u}+0.004}, \epsilon_{u}=0.003, \beta_{1}=0.85
+$$
+$$
+\rho_{max}=0.021
 $$
 
+
  ![[Pasted image 20260127182019.png]]
+##### HW problem 1
+![[Pasted image 20260129150638.png]]
+
+4x #8 bars, As = 0.79 x 4 = 3.16 in^2
+
+$$
+a=\frac{3.16\times 60}{0.85\times 4 \times 12}=4.647\text{ in}
+$$
+
+
