@@ -147,5 +147,38 @@ $$
 $$
 a=\frac{3.16\times 60}{0.85\times 4 \times 12}=4.647\text{ in}
 $$
+Calculate for $\beta_{1}$
+$$
+\beta_{1}=0.85-0.05(\frac{4000\text{psi}-4000\text{psi}}{1000\text{psi}})=0.85
+$$
+Calculate for c, using $\beta_{1}$ and $a$
+$$
+c=\frac{a}{\beta_{1}}=\frac{4.647\text{ in}}{0.85}=5.467 \text{ in}
+$$
+There is only one layer of rebar in this problem, so $d=dt=20-2.5=17.5\text{ in}$
+we can now use these values to find what $\phi$ is
+$$
+\begin{align}
+\phi&=0.65+0.25\left( \frac{dt}{c}-\frac{5}{3} \right) \\
+\phi&=0.65+0.25\left( \frac{17.5}{5.467}-\frac{5}{3} \right)=1.033
+\end{align}
 
+$$
+note that our $\phi>0.9$ the beam is not up to code
+pmin and pmax?
+$$
+\begin{align}
+p_{min}=\frac{3\sqrt{ 4000 }}{60000}=0.0032\\
+p_{min_{2}}=\frac{200}{60000}=\boxed{0.0033} \\ \\
+P_{max}=0.85(0.85)\left( \frac{4}{60} \right)\left( \frac{0.003}{(0.003+0.004)} \right)=\boxed{0.021}
+\end{align}
+$$
+$$
+\rho=\frac{4}{12\cdot 17.5}=0.019
+$$
+note that $p_{min_{2}}<\rho<p_{max}$ so it's all good.
+Now we can calculate for the Mu, the ultimate loading
+$$
+M_{u}=\phi M_{n}=1.033 \times 3.16\times 60\left( 17.5-\frac{4.647}{2} \right)=2972.42\text{ in-kips}
+$$
 
