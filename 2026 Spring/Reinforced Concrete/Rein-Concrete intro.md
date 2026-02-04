@@ -182,3 +182,60 @@ $$
 M_{u}=\phi M_{n}=1.033 \times 3.16\times 60\left( 17.5-\frac{4.647}{2} \right)=2972.42\text{ in-kips}
 $$
 
+---
+A second case that could happen is a beam design problem
+We are given everything EXCEPT $a$, so in this case we just adjust the equation we use to solve for Mu, since we are given Mu
+$$
+\begin{align}
+M_{n}=A_{s}f_{y}\left( d-\frac{a}{2} \right) \\
+M_{n}=\frac{M_{u}}{\phi} \\
+M_{u}=\frac{A_{s}f_{y}\left( d-\frac{a}{2} \right)}{\phi}
+\end{align}
+$$
+long ahh derivation
+$$
+a=d\left[ 1-\sqrt{ 1-\frac{4M_{u}}{1.7\phi f'c\times b\times d^2} } \right]
+$$
+we need a for $\phi$ but we don't have a, so we just assume a number for $\phi$ instead.
+remember, $\phi$ must be within 0.65 < $\phi$ < 0.9
+once we assume a good $\phi$, we can use it to find $A_{s}$
+$$
+A_{s}=\frac{0.85f'c\times b\times a}{f_{y}}
+$$
+
+---
+##### Example 2
+b=10"
+h=20"
+As=?
+f'c=4ksi
+fy=60ksi
+Mu=1300 in-kip
+from the diagram, d is 20-2.5=17.5
+
+$$
+\begin{align}
+a=d\left[ 1-\sqrt{ 1-\frac{4M_{u}}{1.7\phi f'c\times b\times d^2} } \right] \\
+a=17.5\left[ 1-1\sqrt{1-\frac{4(1300)}{1.7\phi(4)(10)(17.5^2)} } \right]
+\end{align}
+$$
+after assuming that $\phi=0.9$
+$$
+a=2.62\text{ in}
+$$
+$$
+A_{s}=\frac{0.85(4)(10)(2.62)}{60}=1.49\text{ in}^2
+$$
+we can then finally calculate for c and $\beta_{1}$
+$$
+\beta_{1}=0.85-\frac{(4000)-4000}{1000}\times 0.05=0.85
+$$and to calculate for c
+$$
+c=\frac{a}{\beta_{1}}=\frac{2.62}{0.85}=3.09\text{ in}
+$$
+now we can calculate the $\epsilon_{t}$
+$$
+\epsilon_{t}=e_{u}\left( \frac{d-c}{c} \right)=0.003\left( \frac{17.5-3.09}{3.09} \right)=0.014
+$$
+our calculated $\phi$ is greater than our assumed $\phi$ so we just used the assumed, which is 0.9
+our As=1.49 square inches, to achieve this, we need to get a combination of rebar cross sections that can add up to a number greater than 1.49 but not too much. 
