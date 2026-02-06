@@ -239,3 +239,8 @@ $$
 $$
 our calculated $\phi$ is greater than our assumed $\phi$ so we just used the assumed, which is 0.9
 our As=1.49 square inches, to achieve this, we need to get a combination of rebar cross sections that can add up to a number greater than 1.49 but not too much. 
+
+for example, 2 #7 and 1 #6 rebar, which will be 
+$$
+2 \times 0.44+1\times 0.6= 1.48 
+$$
