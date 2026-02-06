@@ -14,7 +14,7 @@ Subject: HW2 Seepage
 
 ---
 
-Below are several calculations of pore water pressure in three different scenarios. The pore water pressures are plotted in diagrams. There are tables with sample calculations to accompany the diagrams as well. 
+Below are several calculations of pore water pressure in three different scenarios. The pore water pressures are plotted in diagrams. There are tables with sample calculations to accompany the diagrams as well. The x-coordinates for the dam and slope are to scale of the given dimensions and are to scale with the drawing. 
 ![[Signature.excalidraw|200]]
 <div style="page-break-after: always;"></div>
 
@@ -60,8 +60,8 @@ $$
 | 16         | 10  | 0.555556   | 8.888889                      | 1.111111                              | -3    | 4.111111  | 256.5333    |
 | 17         | 10  | 0.555556   | 9.444444                      | 0.555556                              | -1.5  | 2.055556  | 128.2667    |
 | 18         | 10  | 0.555556   | 10                            | 0                                     | 0     | 0         | 0           |
-
-![[Seepage HW1|800]]
+![[Pasted image 20260205193506.png]]
+![[Pasted image 20260205193513.png]]
 
 ---
 
@@ -83,17 +83,21 @@ u&=9.667\text{ ft}\times 62.4 \frac{\text{lb}}{\text{ft}^3}=603.2 \frac{\text{ l
 
 $$
 
-| Points | H   | $\Delta h$ | $\text{point}\times \Delta h$ | $H_{a}=H-\text{point}\times \Delta h$ | $z$ | $H_{a}-z$ | $u$ lb/ft^2 |
-| ------ | --- | ---------- | ----------------------------- | ------------------------------------- | --- | --------- | ----------- |
-| 2      | 10  | 0.666667   | 1.333333                      | 8.666667                              | -1  | 9.666667  | 603.2       |
-| 3      | 10  | 0.666667   | 2                             | 8                                     | -1  | 9         | 561.6       |
-| 4      | 10  | 0.666667   | 2.666667                      | 7.333333                              | -1  | 8.333333  | 520         |
-| 5      | 10  | 0.666667   | 3.333333                      | 6.666667                              | -1  | 7.666667  | 478.4       |
-| 6      | 10  | 0.666667   | 4                             | 6                                     | -1  | 7         | 436.8       |
-| 7      | 10  | 0.666667   | 4.666667                      | 5.333333                              | -1  | 6.333333  | 395.2       |
+| x-coord | Points | H   | $\Delta h$ | $\text{point}\times \Delta h$ | $H_{a}=H-\text{point}\times \Delta h$ | $z$ | $H_{a}-z$ | $u$ lb/ft^2 |
+| ------- | ------ | --- | ---------- | ----------------------------- | ------------------------------------- | --- | --------- | ----------- |
+| 0.5     | 2      | 10  | 0.666667   | 1.333333                      | 8.666667                              | -2  | 10.66667  | 665.6       |
+| 2.5     | 3      | 10  | 0.666667   | 2                             | 8                                     | -1  | 9         | 561.6       |
+| 7.25    | 4      | 10  | 0.666667   | 2.666667                      | 7.333333                              | -1  | 8.333333  | 520         |
+| 12      | 5      | 10  | 0.666667   | 3.333333                      | 6.666667                              | -1  | 7.666667  | 478.4       |
+| 17.4    | 6      | 10  | 0.666667   | 4                             | 6                                     | -1  | 7         | 436.8       |
+| 24.25   | 7      | 10  | 0.666667   | 4.666667                      | 5.333333                              | -1  | 6.333333  | 395.2       |
+| 29      | 7.5    | 10  | 0.666667   | 5                             | 5                                     | -1  | 6         | 374.4       |
+| 31      | 8      | 10  | 0.666667   | 5.333333                      | 4.666667                              | -2  | 6.666667  | 416         |
+
+
 
 Profile for Pore water pressure under the dam
-![[HW2 Seepage Q2|500]]
+![[Pasted image 20260205195948.png]]
 
 ---
 
