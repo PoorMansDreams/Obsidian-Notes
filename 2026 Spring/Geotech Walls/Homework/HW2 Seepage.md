@@ -69,7 +69,9 @@ $$
 the figure below if the difference in the upstream and downstream water surface elevations is
 10 feet.
 ![[Pasted image 20260205142112.png]]
-sample calculation
+sample calculations
+
+
 $$
 \begin{align} 
 \Delta h&=\frac{H}{n_{d}}=\frac{10}{15}=0.6667\\
@@ -81,7 +83,6 @@ u&=9.667\text{ ft}\times 62.4 \frac{\text{lb}}{\text{ft}^3}=603.2 \frac{\text{ l
 
 $$
 
-
 | Points | H   | $\Delta h$ | $\text{point}\times \Delta h$ | $H_{a}=H-\text{point}\times \Delta h$ | $z$ | $H_{a}-z$ | $u$ lb/ft^2 |
 | ------ | --- | ---------- | ----------------------------- | ------------------------------------- | --- | --------- | ----------- |
 | 2      | 10  | 0.666667   | 1.333333                      | 8.666667                              | -1  | 9.666667  | 603.2       |
@@ -91,5 +92,13 @@ $$
 | 6      | 10  | 0.666667   | 4                             | 6                                     | -1  | 7         | 436.8       |
 | 7      | 10  | 0.666667   | 4.666667                      | 5.333333                              | -1  | 6.333333  | 395.2       |
 
-
+Profile for Pore water pressure under the dam
 ![[HW2 Seepage Q2|500]]
+
+---
+
+3. Plot a profile for the pore-water pressure, u, at the potential failure surface in the earth dam
+shown in the figure below if the dam height is 12 feet and the difference in the upstream and
+downstream water surface elevations is 10 feet.
+![[Pasted image 20260205163523.png]]
+
