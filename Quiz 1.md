@@ -11,7 +11,7 @@ $$
 $$
 3. Estimate e (void ratio)
 $$
-e=\frac{V_{v}}{V_{s}}=\frac{\frac{W_{w}}{62.4\times S}}{\frac{1}{\text{G.S.}\times 62.4}}=\frac{W_{w}\times\text{G.S.}}{S}=\frac{0.55\times2.7}{1}=\boxed{1.485}
+e=\frac{V_{v}}{V_{s}}=\frac{\frac{W_{w}}{62.4\times S}}{\frac{1}{\text{G.S.}\times 62.4}}=\frac{W_{w}\times\text{G.S.}}{S}=\frac{0.55\times2.7}{1}=1.485
 $$
 4. Classify according to USCS
 
@@ -26,6 +26,6 @@ $$
 
 Center of  Silty clay $y=2.5+2+2=6.5\text{ ft}$
 $$
-\sigma'=105 \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(110-62.4) \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(120-62.4)\frac{\text{lb}}{\text{ft}^3}\times 2.5\text{ ft}
+\sigma'=105 \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(110-62.4) \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(120-62.4)\frac{\text{lb}}{\text{ft}^3}\times 2.5\text{ ft}=449.2 \frac{\text{lb}}{\text{ft}^2}
 $$
 ![[Pasted image 20260205214647.png]]
