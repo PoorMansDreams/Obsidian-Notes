@@ -164,7 +164,7 @@ $$
 \end{align}
 
 $$
-note that our $\phi>0.9$ the beam is not up to code
+$\phi$ must not be greater than 0.9, so we use 0.9 instead.
 pmin and pmax?
 $$
 \begin{align}
@@ -179,10 +179,60 @@ $$
 note that $p_{min_{2}}<\rho<p_{max}$ so it's all good.
 Now we can calculate for the Mu, the ultimate loading
 $$
-M_{u}=\phi M_{n}=1.033 \times 3.16\times 60\left( 17.5-\frac{4.647}{2} \right)=2972.42\text{ in-kips}
+M_{u}=\phi M_{n}=0.9 \times 3.16\times 60\left( 17.5-\frac{4.647}{2} \right)=2589.72\text{ in-kips}
 $$
 
 ---
+#### HW problem 2
+![[Pasted image 20260209173755.png]]
+$d=dt=20-2.5=17.5$"
+given the parameters
+$w_{D}=1.4 \frac{\text{kip}}{\text{ft}}$ and $w_{L}=2.2 \frac{\text{kip}}{\text{ft}}$
+We use the load combination $1.2w_{D}+1.6w_{L}$
+$$
+1.2\times 1.4 + 1.6 \times 2.2= 5.2 \frac{\text{kip}}{\text{ft}}
+$$
+ $$w=5.2 \frac{\text{kip}}{\text{ft}}\times\frac{1000\text{ lb}}{1\text{ kip}}=5200 \frac{\text{lb}}{\text{ft}}$$
+Beam is symmetrical, load is uniformly distributed through the entire beam
+
+Reactions at the ends of the beam $\frac{wL}{2}$
+shear at the center of the beam is 0
+moment at the center of the beam $\frac{wL^2}{8}=\frac{5200\times15}{8}=146250 \text{ lb-ft}$
+our $M_{u}=146250 \text{ lb-ft}$
+
+$$
+a=d\left[ 1-\sqrt{ 1-\frac{4M_{u}}{1.7\phi f'c\times b\times d^2} } \right]
+$$
+Assume that $\phi=0.9$
+$$
+a=17.5\left[ 1-\sqrt{ 1-\frac{4(146250)}{1.7(0.9) (4000)\times 10\times 17.5^2} } \right] = 0.275274\text{ in}
+$$
+
+$$
+A_{s}=0.85ab \frac{f'c}{fy}=0.85(0.275)(10) \frac{4}{60}=0.156\text{ in}^2
+$$
+$$
+\beta_{1}=0.85-\frac{f'c-4000}{1000}\times 0.05 = 0.85
+$$
+$$
+c=\frac{a}{\beta_{1}}=\frac{0.275}{0.85}=0.324 \text{ in}
+$$
+we can now calculate for $\epsilon_{t}$
+$$
+\epsilon_{t}=\epsilon_{s}=\epsilon_{u} \frac{d-c}{c}=0.003 \frac{17.5-0.324}{0.324}=0.159
+$$
+calculate what $\phi$ would've been
+$$
+\phi=0.65+\frac{250(\epsilon _{t}-0.002)}{3}=\frac{250(0.159-0.002)}{3}=13.08
+$$
+our calculated $\phi$ is greater than 0.9, we just stick with using 0.9
+
+use $A_{s}=0.156\text{ in}^2$, closest approximation with steel rebar is 4 #6 rebars, $4\times 0.11\text{ in}^2=$
+
+
+
+---
+ 
 A second case that could happen is a beam design problem
 We are given everything EXCEPT $a$, so in this case we just adjust the equation we use to solve for Mu, since we are given Mu
 $$
@@ -202,6 +252,8 @@ once we assume a good $\phi$, we can use it to find $A_{s}$
 $$
 A_{s}=\frac{0.85f'c\times b\times a}{f_{y}}
 $$
+
+
 
 ---
 ##### Example 2
