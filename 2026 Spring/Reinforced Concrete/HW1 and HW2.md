@@ -160,3 +160,8 @@ after 7 iterations, the closest I could get to 0 was when
 $$
 \boxed{C=7.399\text{ in}}
 $$
+after solving for pmax, our $\rho$ is less than our pmax so its ok
+use equation
+$$
+M_{n}=Cc\left( d-\beta_{1}\left( \frac{c}{2} \right) \right)+C's(d-d')
+$$
