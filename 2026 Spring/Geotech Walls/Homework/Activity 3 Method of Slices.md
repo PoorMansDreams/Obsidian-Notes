@@ -2,7 +2,8 @@ Determine the factor of safety for the slope shown in the figure below, for the 
 
 Here is just an example what the drawing could look like 
 ![[Act3 Example|800]]
-
+![[Pasted image 20260212223052.png]]
+Drawing of the slope
 
 Sample calculations
 $$
