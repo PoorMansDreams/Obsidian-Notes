@@ -15,6 +15,9 @@ $$
 $$
 Wx=114.301 \frac{\text{lb}}{\text{ft}}\times -20.818\text{ ft}=-2379.52 \frac{\text{lb-ft}}{\text{ft}}
 $$
+$$
+l_{1}=\frac{b}{\cos \alpha}=\frac{1.2612}{\cos 50^\circ}=1.962\text{ ft}
+$$
 for slice 18,
 $$
 W\cos \alpha \tan \phi=4166.833\cos(58)\tan(12)=469.34 \frac{\text{lb}}{\text{ft}}
@@ -53,10 +56,14 @@ $$
 $$
 
 $$
-\sum M_{R}= \left( 1230\text{ psf} \times 105^\circ\times \frac{\pi}{180}+615\text{ psf}\times 24^\circ \times \frac{\pi}{180}+553.2194 \right)\times 27=82752.91 \frac{\text{lb-ft}}{\text{ft}}
+\begin{align}
+
+\sum M_{R}&= \left( 27\text{ ft}\times 1230\text{ psf} \times 105^\circ\times \frac{\pi}{180}+27\text{ ft} \times 615\text{ psf}\times 37^\circ \times \frac{\pi}{180}+553.2194 \right)\times 27  \\
+\sum M_{R}&=1947693 \frac{\text{lb-ft}}{\text{ft}}
+\end{align}
 $$
 finally, we can calculate our FS,
 $$
-\text{FS}=\frac{\sum M_{r}}{\sum M_{D}}= \frac{82752.91 \frac{\text{lb-ft}}{\text{ft}}}{483305.9 \frac{\text{lb-ft}}{\text{ft}}}=0.171
+\text{FS}=\frac{\sum M_{r}}{\sum M_{D}}= \frac{1947693  \frac{\text{lb-ft}}{\text{ft}}}{483305.9 \frac{\text{lb-ft}}{\text{ft}}}=4.03
 $$
-This slope is going slide. 
+The slope is pretty strong
