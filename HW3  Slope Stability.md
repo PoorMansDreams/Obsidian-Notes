@@ -62,13 +62,57 @@ $$
 
 ![[Pasted image 20260216230717.png]]
 
+To account for the weight of the block on top of the slope, 
 $$
-A_{t}=H\times x_{crest}\times \frac{1}{2}=19.7\times 17.4317\times \frac{1}{2 }=171.7\text{ ft}^2
+410 \frac{\text{lb}}{\text{ft}^2}\times 12.5317\text{ ft}\times 1\text{ ft}=5137.997\text{ lb}
 $$
+sample calculations for the top clay layer
+$$
+A_{t_{1}}=H\times x_{crest}\times \frac{1}{2}=19.7\times 17.4317\times \frac{1}{2 }=171.7\text{ ft}^2
+$$
+$$
+A_{t_{2}}=H\times \text{B}\times \frac{1}{2}=19.7\times 21.9013\times \frac{1}{2 }=215.0561\text{ ft}^2
+$$
+$$
+A_{s}=\frac{1}{2}R^2\theta_{\text{rad}}-\frac{1}{2}R^2\sin \theta= \frac{1}{2}\times 33.5555^2\times 40^\circ\times \frac{\pi}{180^\circ}-\frac{1}{2}\times 33.5555^2\sin(40^\circ)=31.7692\text{ ft}^2
 $$
 
+Weight for each area
+$$
+W_{t_{1}}=118.5 \frac{\text{ lb}}{\text{ ft}^3}\times 1\text{ ft}\times 171.7\text{ ft}^2=20346.45\text{ lb}
+$$
+$$
+W_{t_{2}}=118.5 \frac{\text{ lb}}{\text{ ft}^3}\times 1\text{ ft}\times 215.0561\text{ ft}^2=25484.14785\text{ lb}
+$$
+$$
+W_{s}=118.5\frac{\text{ lb}}{\text{ ft}^3} \times 1 \text{ ft} \times 31.7692\text{ ft}^2=3764.6502\text{ lb}
 $$
 
+sample calculations for moment of top clay layer
+$$
+M_{t_{1}}=20346.45\text{ lb}\times 23.0692\text{ ft}=469376.3243 \text{ lb-ft}
+$$
+$$
+M_{t_{2}}=25484.14785\text{ lb}\times 11.7486\text{ ft}=299403.0594 \text{ lb-ft}
+$$
+$$
+M_{s}=3764.6502\text{ lb}\times 27.5710 \text{ ft}=103795.1707 \text{ lb-ft}
+$$
+
+"CLR" of the top clay layer
+$$
+c_{1}l_{1}R_{1}=820\frac{\text{lb}}{\text{ft}^2} \times 23.5809\times 33.5555=648840.4898
+$$
+Final calculation
+$$
+FS=\frac{\sum M_{R}}{\sum M_{D}}=\frac{\sum c_{i}l_{i}R}{\sum W_{i}x_{i}}= \\
+$$
+$$
+\frac{820\frac{\text{lb}}{\text{ft}^2} \times 23.5809\times 33.5555+1230\frac{\text{lb}}{\text{ft}^2}\times 29.1279\times 33.5555}{5137.997\cdot 26.6342+20346.45\cdot 23.0692+25484.14785\cdot 11.7486+3764.6502\cdot 27.5710+39683.1627+54757.8201} \\
+$$
+$$
+FS= 1.68
+$$
 ---
 ## Problem 3 
 Determine the factor of safety for the slope shown in the figure below, for the marked trial slip surface, using the method of slices. (HW3 problem 3)
@@ -142,6 +186,5 @@ $$
 The slope is pretty strong
 
 ---
-
 
 
