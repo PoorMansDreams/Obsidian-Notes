@@ -61,7 +61,7 @@ $$
 ## Problem 2
 
 ![[Pasted image 20260216230717.png]]
-
+![[Pasted image 20260217021446.png]]
 To account for the weight of the block on top of the slope, 
 $$
 410 \frac{\text{lb}}{\text{ft}^2}\times 12.5317\text{ ft}\times 1\text{ ft}=5137.997\text{ lb}
