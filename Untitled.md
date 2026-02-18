@@ -40,9 +40,11 @@ $$
 \Delta KE=\frac{1}{2}\cdot 1200\text{ kg}\cdot \left (25 \frac{\text{m}}{s} \right )^2 -0 =375000 \text{ J} \\
 \end{align}
 $$
+
 Power equation can also be 
 
 $$P=\frac{\Delta KE}{\Delta T}=\frac{375000 \text{J}}{12\text{ s}-0\text{ s}}=31250\text{ W}$$
+
 
 ---
 
