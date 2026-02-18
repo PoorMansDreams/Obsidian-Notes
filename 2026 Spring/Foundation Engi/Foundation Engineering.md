@@ -1,5 +1,7 @@
 [[1.1 Phase relationships]]
 [[1.2 Soil Classification]]
 [[1.3 Stresses]]
+[[2.1 Site Investigation]]
+[[2.7 Site Investigation Procedure (SPT)]]
 [[HW1 - Soil Mech]]
 [[Quiz 1]]

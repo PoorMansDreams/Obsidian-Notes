@@ -161,7 +161,25 @@ $$
 \boxed{C=7.399\text{ in}}
 $$
 after solving for pmax, our $\rho$ is less than our pmax so its ok
-use equation
+
+test our p again
+$\sigma_{max}=0.0298$
+$$
+p=\frac{A's}{bd}=\frac{2}{12\cdot 22}=0.00757 < \sigma_{max} 
+$$
+our new $\phi$
+$$
+\phi= 0.65+0.25\left[ \left( \frac{1}{\frac{7.399}{23.5}} \right)-\frac{5}{3} \right]
+=1.027$$
+calculated phi is greater than 0.9, so we just use 0.9
+
 $$
 M_{n}=Cc\left( d-\beta_{1}\left( \frac{c}{2} \right) \right)+C's(d-d')
 $$
+$$
+M_{n}=301.8792\left( 22-0.8\left( \frac{7.399}{2} \right) \right)+106.7083(22-2.5)=7828 \text{ kip-in}
+$$
+$$
+M_{u}=M_{n}\theta=7828\cdot 0.9=7045 \text{ kips-in}
+$$
+

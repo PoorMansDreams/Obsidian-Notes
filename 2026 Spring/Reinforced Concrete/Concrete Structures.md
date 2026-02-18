@@ -122,6 +122,7 @@ V_{u}=\phi V_{n}=0.75\times 125265 = 93947.75 \frac{\text{lb }}{ \text{in}^2}
 $$
 
 now we have to check for our other $S$
+![[Pasted image 20260217170827.png|400]]
 $$
 \begin{align} 
 S_{max}=\frac{0.33\times 60000}{0.75\sqrt{ 4000 }\times 12}=34.78\text{"} \\
@@ -154,6 +155,7 @@ $$
 $$
 we are within the limits, so yes, the stirrup spacing must not be more than $\frac{S_{max}}{2}=\frac{13}{2}=6.5\text{ in}$
 but we used 6 inches anyways so we're fine. 
+![[Pasted image 20260217171038.png]]
 
 [^2]: If our $\phi V_{sr}$ isn't within the bounds, we will have to redo the entire beam
 
@@ -166,3 +168,8 @@ Q15
 If the beam has a positive moment on the left side, then right support will have a downward reaction of $\frac{M_{v}}{L}$ and the left side of the support will be upward reaction $\frac{M_{v}}{L}$
 Q16
 if we have a positive reaction on both sides, we just add the $M_{v}$ of bothn 
+
+---
+
+Design Required sheer reinforcements
+
