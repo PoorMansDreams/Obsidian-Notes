@@ -171,5 +171,117 @@ if we have a positive reaction on both sides, we just add the $M_{v}$ of bothn
 
 ---
 
-Design Required sheer reinforcements
+Design Required sheer reinforcements Example-1
+![[Pasted image 20260217172624.png]]
 
+Note that our required shear that was calculated was $V_{u}=94-9.4\text{ kip/ft}\times 1.83\text{ ft}=76.8\text{ kips}$
+First, calculate $V_{c}$ , $\lambda$ is given to us already
+
+$$
+V_{c}=2\lambda \sqrt{ f'c } \cdot b_{w}\cdot d=2\cdot 1 \cdot \sqrt{ 4000 }\cdot 16 \cdot \frac{22}{1000}=44.525\text{ kips}
+$$
+note, dividing by 1000 to convert it back from lb to kips
+$$
+\phi V_{C}=0.75\cdot 44.525=33.4\text{ kips}
+$$
+our calculated $V_{u}$ is less than the $V_{u}$
+
+calculate how much $V_{sr}$ is neeed
+$$
+V_{u}=\phi V_{c} + \phi V_{sr}
+$$
+$$
+\phi V_{sr}=V_{u}-\phi V_{c}
+$$
+$$
+\phi V_{sr}=76.8-33.4=43.3 \text{ Kips}
+$$
+make sure to check $\phi V_{sr}<4\phi \sqrt{ f'c }\cdot b_{w}\cdot d=66.8\text{ kips}$
+all is well
+
+![[Pasted image 20260217173953.png]]
+
+Now we can calculate what we need to obtain $\phi V_{sr}=43.4\text{ kips}$ 
+$$
+\phi V_{sr}=\frac{\phi A_{v}\cdot fyt \cdot d}{S}
+$$
+$$
+S=\frac{\phi A_{v}\cdot fyt \cdot d}{\phi V_{sr}}=\frac{0.75\cdot 0.22\cdot 60000 \cdot 22}{43.4\cdot 1000}=5\text{ in}
+$$
+
+$A_{v}=0.22\text{ in}^2$ (2 legs, #3 rebar)
+$$
+A_{v}min=max =
+\begin{cases}
+\frac{0.75\sqrt{ f'c }\cdot b_{w} \cdot S}{fyt}&=0.14\text{ in}^2 \\
+\frac{50\cdot b_{w}\cdot S}{fyt}&= 0.15\text{ in}^2
+\end{cases}
+
+$$
+Our current $A_{v}$ is above the minimum so we're OK
+$$
+S_{max}=Min=
+\begin{cases}
+\frac{d}{2} &=\frac{22}{2}=11 \\
+\frac{A_{v}\cdot fyt}{0.75 \cdot \sqrt{ f'c }\cdot b_{w}} &=17.4\\
+24\text{ in}
+\end{cases}
+$$
+our $S_{max}=11\text{"}$ this is OK
+
+so now
+$$
+\phi V_{sr}=\frac{0.75\cdot 0.22 \cdot 60000 \cdot 22}{11}=19.8 \text{ kips}
+$$
+
+---
+Q 17
+$$
+\begin{align}
+R_{U}=94 \text{ kip}\\
+w_{u}=9.4 \text{ kip} \\
+\text{find distance such that } V_{u }=60 \text{ kips}
+\end{align}
+$$
+$$
+\begin{align}
+R_{U}-w_{u}x-V_{u}=0\\
+94-9.4x-60=0 \\
+x=3.617\text{ ft}
+\end{align}
+$$
+Q 18
+Find all u (Face of support) to $S_{max}=11\text{"}$ (#3 @ 11")
+remember, our $\phi=0.75$ and $\lambda=1$
+$$
+\begin{align}
+V_{u}=\phi V_{n}=\phi V_{c}+\phi V_{sr} \\ \\
+V_{c}=\frac{2\lambda \sqrt{ 4000 } \cdot 16 \cdot 22}{1000} =44.5 \text{ kips}\\ \\
+V_{sr}=\frac{0.22\cdot 60\text{ kips} \cdot 22}{11}=26.4 \text{ kips}\\
+V_{u}=0.75\cdot (44.5+26.4)= 53.17 \text{ kips}
+\end{align}
+
+$$
+
+Q 19
+
+find x if we use #3 at 9" 
+Our $V_c$ will be the same 
+Our $V_{sr}$ will not be the same
+$$
+V_{sr}=\frac{0.22\cdot 60\text{ kips} \cdot 22}{9}= \text{ 32.267 kips}
+$$
+$$
+V_{u}=\phi(V_{sr}+V_{c})=0.75(32.267+44.5)=57.57 \text{ kips}
+$$
+
+$$
+\begin{align}
+R_{U}-w_{u}x-V_{u}=0 \\
+94-9.4(x)-57.57=0 \\
+x=3.87
+\end{align}
+
+
+$$
+---
