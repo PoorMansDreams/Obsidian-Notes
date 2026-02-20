@@ -187,3 +187,63 @@ The slope is pretty strong
 
 ---
 ## Problem 4
+![[Pasted image 20260220084624.png]]\\
+![[Pasted image 20260220094623.png]]
+Without considering any tension cracks, 
+$$
+\sum M_{R}=\left[ \sum c_{i}l_{i}+\sum W_{i}\cos \alpha_{i} \tan \phi_{i}  \right] R
+$$$$
+M_{D}=\sum W_{i}x_{i}
+$$
+
+$$
+\text{FS}=\frac{\sum M_{R}}{\sum M_{D}}=\frac{940\cdot 40.5\cdot \left( 95^\circ \cdot \frac{\pi}{180}\cdot 40.5 \right)}{85000 \frac{\text{lb}}{\text{ft}}\cdot 16.5\text{ ft}}=\frac{2556459.24 \frac{\text{lb-ft}}{\text{ft}}}{1402500 \frac{\text{lb-ft}}{\text{ft}}}=1.82
+$$
+
+
+when considering dry tension cracks, 
+![[Pasted image 20260220110402.png]]
+Calculate $Z_{cr}$
+$$
+Z_{cr}=\frac{2c}{\gamma}=\frac{2\cdot 940}{118.5}=15.865\text{ ft}
+$$
+Areas for tension cracked areas 
+$$
+\begin{align}
+A_{t}&=15.8650\times 9.1013\times \frac{1}{2}= 72.1961 \text{ ft}^2 \\
+A_{s}&=\frac{1}{2}\cdot 40.5^2\cdot 26^\circ\times \frac{\pi}{180^\circ}-\frac{1}{2}\cdot 40.5^2 \cdot \sin 26^\circ=12.6417\text{ ft}^2
+\end{align}
+$$
+Weight of each area
+$$
+\begin{align}
+W_{t}=72.1961 \text{ ft}^2 \cdot 118.5 \frac{\text{lb}}{\text{ft}^3}=8555.233 \frac{\text{lb}}{\text{ft}} \\
+
+W_{t}x_{t}=8555.233\cdot 32.7057=279804.884 \frac{\text{lb-ft}}{\text{ft}}\\
+
+W_{s}=12.6417 \text{ ft}^2 \cdot 118.5 \frac{\text{lb}}{\text{ft}^3}=1498.04145 \frac{\text{lb}}{\text{ft}} \\
+W_{s}x_{s}=1498.04145\cdot 34.5859=51811.1118 \frac{\text{lb-ft}}{\text{ft}}
+\end{align}
+$$
+
+$$
+\text{FS}=\frac{\sum M_{R}}{\sum M_{D}}=\frac{940\cdot 69^\circ \cdot \frac{\pi}{180} \cdot 40.5 \cdot 40.5 }{1402500 -279804.884-51811.1118}
+$$
+$$
+\text{FS}= \frac{1856796.71\frac{\text{lb-ft}}{\text{ft}}}{1070885\frac{\text{lb-ft}}{\text{ft}}}=1.73
+$$
+
+when considering WET tension cracks
+![[Pasted image 20260220111618.png]]
+calculation for force due to water
+$$
+E_{w}=\frac{1}{2}Z_{cr}\cdot(\gamma_{w}\cdot Z_{cr})=\frac{1}{2}\cdot 15.8650\cdot(62.4\cdot 15.8650)=7852.98462 \frac{\text{lb}}{\text{ft}}
+$$
+$$
+E_{w}\cdot x_{w}=7852.98462\cdot 22.276=174938.582 \frac{\text{lb-ft}}{\text{ft}}
+$$
+apply to our FS equation
+$$
+\text{FS}= \frac{1856796.71\frac{\text{lb-ft}}{\text{ft}}}{1070885+174938.582\frac{\text{lb-ft}}{\text{ft}}}=1.49
+$$
+
