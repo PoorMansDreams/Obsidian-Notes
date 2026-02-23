@@ -1,3 +1,24 @@
+
+---
+### <p align="left"><center>Memorandum</center></p>
+
+
+
+To: Dr. Amr M. Morsy
+
+From: Andy Nguyen
+
+Date: 2-20-2026
+
+Subject: HW3 Slope Stability
+
+---
+
+Below are calculations for the factor of safety for several cases and scenarios  of  slopes. Scale drawing done in autocade are provided, the last problem (problem 4) was verified using Slide2 software, but hand calculated results differ from what the software calculated. 
+![[Signature.excalidraw|200]]
+<div style="page-break-after: always;"></div>
+
+
 ## Problem 1 
 ![[Pasted image 20260210145756.png]]
 
@@ -192,9 +213,11 @@ The slope is pretty strong
 Without considering any tension cracks, 
 $$
 \sum M_{R}=\left[ \sum c_{i}l_{i}+\sum W_{i}\cos \alpha_{i} \tan \phi_{i}  \right] R
-$$$$
+$$
+$$
 M_{D}=\sum W_{i}x_{i}
 $$
+
 
 $$
 \text{FS}=\frac{\sum M_{R}}{\sum M_{D}}=\frac{940\cdot 40.5\cdot \left( 95^\circ \cdot \frac{\pi}{180}\cdot 40.5 \right)}{85000 \frac{\text{lb}}{\text{ft}}\cdot 16.5\text{ ft}}=\frac{2556459.24 \frac{\text{lb-ft}}{\text{ft}}}{1402500 \frac{\text{lb-ft}}{\text{ft}}}=1.82
