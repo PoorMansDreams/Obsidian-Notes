@@ -163,9 +163,9 @@ $$
 after solving for pmax, our $\rho$ is less than our pmax so its ok
 
 test our p again
-$\sigma_{max}=0.0298$
+$p_{max}=0.0298$
 $$
-p=\frac{A's}{bd}=\frac{2}{12\cdot 22}=0.00757 < \sigma_{max} 
+p=\frac{A's}{bd}=\frac{2}{12\cdot 22}=0.00757 < p_{max} 
 $$
 our new $\phi$
 $$
