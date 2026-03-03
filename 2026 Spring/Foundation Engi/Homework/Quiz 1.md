@@ -28,4 +28,3 @@ Center of  Silty clay $y=2.5+2+2=6.5\text{ ft}$
 $$
 \sigma'=105 \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(110-62.4) \frac{\text{lb}}{\text{ft}^3}\times 2\text{ ft}+(120-62.4)\frac{\text{lb}}{\text{ft}^3}\times 2.5\text{ ft}=449.2 \frac{\text{lb}}{\text{ft}^2}
 $$
-![[Pasted image 20260205214647.png]]

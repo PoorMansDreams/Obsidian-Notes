@@ -186,7 +186,7 @@ $$
 $$
 our calculated $V_{u}$ is less than the $V_{u}$
 
-calculate how much $V_{sr}$ is neeed
+calculate how much $V_{sr}$ is needed
 $$
 V_{u}=\phi V_{c} + \phi V_{sr}
 $$

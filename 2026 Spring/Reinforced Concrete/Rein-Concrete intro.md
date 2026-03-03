@@ -279,16 +279,22 @@ $$
 A_{s}=\frac{0.85(4)(10)(2.62)}{60}=1.49\text{ in}^2
 $$
 we can then finally calculate for c and $\beta_{1}$
+
 $$
 \beta_{1}=0.85-\frac{(4000)-4000}{1000}\times 0.05=0.85
-$$and to calculate for c
+$$
+and to calculate for c
+
 $$
 c=\frac{a}{\beta_{1}}=\frac{2.62}{0.85}=3.09\text{ in}
 $$
+
 now we can calculate the $\epsilon_{t}$
+
 $$
 \epsilon_{t}=e_{u}\left( \frac{d-c}{c} \right)=0.003\left( \frac{17.5-3.09}{3.09} \right)=0.014
 $$
+
 our calculated $\phi$ is greater than our assumed $\phi$ so we just used the assumed, which is 0.9
 our As=1.49 square inches, to achieve this, we need to get a combination of rebar cross sections that can add up to a number greater than 1.49 but not too much. 
 
