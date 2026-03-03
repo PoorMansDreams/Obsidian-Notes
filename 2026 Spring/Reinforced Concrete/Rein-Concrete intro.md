@@ -174,7 +174,7 @@ P_{max}=0.85(0.85)\left( \frac{4}{60} \right)\left( \frac{0.003}{(0.003+0.004)} 
 \end{align}
 $$
 $$
-\rho=\frac{4}{12\cdot 17.5}=0.019
+\rho=\frac{3.16}{12\cdot 17.5}=0.019
 $$
 note that $p_{min_{2}}<\rho<p_{max}$ so it's all good.
 Now we can calculate for the Mu, the ultimate loading
