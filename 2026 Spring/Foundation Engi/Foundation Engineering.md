@@ -5,3 +5,6 @@
 [[2.7 Site Investigation Procedure (SPT)]]
 [[HW1 - Soil Mech]]
 [[Quiz 1]]
+[[3.1 Shallow Foundations]]
+[[3.3 Bearing Failures]]
+[[3.4 Induced Stresses]]
