@@ -149,7 +149,7 @@ I_{e_{1}}^-=9328.1\text{ in}^4
 $$
 our $I_{e_{1}}^-$ must be less than or equal to our $I_{g}^-$ so we just use $I_{g}^-$
 
-for the **negative moment** part, compression bar at the **left** side is 2#11, 2#9, 2#8, so $A's=2\cdot 1+2\cdot 1.56+2\cdot 0.79=6.7\text{ in}^2$
+for the **negative moment** part, compression bar at the **right** side is 2#11, 2#9, 2#8, so $A's=2\cdot 1+2\cdot 1.56+2\cdot 0.79=6.7\text{ in}^2$
 **NOTE** in this case, our $b=b_{w}=12$
 and the $As=2\text{ in}^2$, use the same equations, but this time the flange is 0, so $\bar{y}$ will always be bigger than $t_{f}$, we can use either equation $t_{f}$ 
 
@@ -190,7 +190,7 @@ $$
 ---
 going back to our original equation
 
-$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times 32719\text{ in}^4}=0.15729\text{ in}$$
+$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times 23497.5\text{ in}^4}=0.15729\text{ in}$$
 now we need to separate the dead and live loads 
 $\omega_{D}=1.65\text{ kip/ft}=19800\text{ lb/in}$
 $\omega_{L}=3.3\text{ kip/ft}=39600\text{ lb/in}$
