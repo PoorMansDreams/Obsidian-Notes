@@ -2,4 +2,5 @@
 [[HW1 and HW2]]
 [[Concrete Structures]]
 [[HW4 Concrete]]
-[[Chap 7 Concrete]]
+[[Concrete Structure Lec 7]]
+[[Concrete Structure Lec 8]]

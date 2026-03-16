@@ -43,7 +43,7 @@ $$
 $$
 I_{g}=\sum I_{o}+\sum Ad^2 
 $$
-for a I beam, the equation is exactly the same.
+for a I beam, the equation is exactly the [[Concrete Structure Lec 8]].
 ![[Pasted image 20260303173236.png]]
 If the beams is different, we need to use different $t_{f}$
 
@@ -127,7 +127,7 @@ for a simply supported beam, which is only 1 moment.
 $$
 I_{e}=I_{e}^+
 $$
-![[Pasted image 20260303183458.png]]
+![[Pasted image 20260303183458.png]] ^c12c2d
 
 ---
 ## Long Term Deflection
@@ -158,3 +158,111 @@ For our Short term,
 $$
 \Delta_{L}=1.2\times 0.3
 $$
+![[Pasted image 20260310170607.png]]
+![[Pasted image 20260310170626.png]]
+our full equation for $\Delta$ will be
+$$
+\Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}} | \text{in distance, like inches}
+$$
+Our Deltas will be calculated by using
+$$
+\begin{align}
+\lambda_{\Delta}&=\frac{\xi}{1+50\rho'} & \rho'&=\frac{A's}{(b_{w}\times d)} | \text{ Midspan only}
+\end{align}
+
+$$
+Where $\xi=$ time dependent factor for sustained load 
+
+we will have to calculate the $\lambda_{\Delta}$ for both dead and live load. 
+
+---
+
+Example 
+$\omega_{D}=1.65$
+$\omega_{L}=3.3$
+both are in kips per foot.
+
+After extensive calculations, we conclude that 
+$I_{e}^+=13340\text{ in}^4$
+$I_{e_{1}}^-=11366\text{ in}^4$
+$I_{e_{2}}^-=11366\text{ in}^4$
+$$
+I_{e}=0.5I_{e}^++0.25(I_{e_{1}}^-+I_{e_{2}}^-)
+$$
+$$
+I_{e}=12395\text{ in}^4
+$$
+And now, for our short term deflection calculations
+$$
+\Delta_{D+L}=0.295\text{ in}
+$$
+$$
+\begin{align}
+\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}=\frac{1.65}{4.95}\times 0.295\\
+\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{3.3}{4.95}\times 0.295
+\end{align}
+$$
+using this we can now calculate our final deflection after long term.
+
+note that in the question, there is no compression bar so we have no $p'$ meaning that our $\xi$ values will be 3, 2, or 1
+
+![[Pasted image 20260310175712.png]]
+
+---
+
+Quiz 23
+
+$\omega_{D}=2$
+$\omega_{L}=3$
+$E_{C}=3600\text{ ksi}$
+$I_{e}=12000\text{ in}^4$
+$\Delta_{D+L}=\frac{9600000}{E_{C}I_{e}}=0.222$
+
+$$
+\begin{align}
+\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}=\frac{2}{5}\times 0.222=0.0888\text{ in}\\
+\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{3}{5}\times 0.222=0.1332\text{ in}
+\end{align}
+$$
+Quiz 24
+
+if $A's$ at the mid span is 2#9, $A's= 2\text{ in}^2$ , find the $\Delta$ for Dead, live short term and live long term
+
+Calculate $\rho'$
+
+$$
+\rho'=\frac{A's}{b_{w}\times d}=\frac{2}{10\cdot20}=0.01
+$$
+
+Now we can calculate the $\Delta$ for the rest
+
+$$
+\begin{align}
+\lambda_{\Delta_{D}}=\frac{\xi}{1+50\rho'}=\frac{2}{1+50\left(0.01\right)}=1.333 \\
+\lambda_{\Delta L_{LT}}=\frac{\xi}{1+50\rho'}=\frac{3}{1+50\left(0.01\right)}=2 \\
+\lambda_{\Delta L_{ST}}=1
+\end{align}
+$$
+
+Quiz 25
+
+if long term live load is 30%, (short term will be 70%), calculate the total $\Delta$
+
+$$
+\Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}}
+$$
+$$
+\Delta=0.0888\times 1.333 +70\%\times 0.1332 \times 1 + 30\%\times 0.1332 \times 2 = 0.2915\text{ in}
+$$
+Quiz 26
+
+Calculate $\Delta$ if our short term live load is 100%
+
+$$
+\Delta=0.0888\times 1.333 +100\%\times 0.1332 \times 1 + 0\%\times 0.1332 \times 2 = 0.2515\text{ in}
+$$
+---
+Special case methods;
+
+if we have strange shaped cross section shape, we can force it into an I-shaped beam for easier calculation.
+
