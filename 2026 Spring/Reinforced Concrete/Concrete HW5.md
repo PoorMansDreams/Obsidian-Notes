@@ -153,6 +153,7 @@ for the **negative moment** part, compression bar at the **left** side is 2#11, 
 **NOTE** in this case, our $b=b_{w}=12$
 and the $As=2\text{ in}^2$, use the same equations, but this time the flange is 0, so $\bar{y}$ will always be bigger than $t_{f}$, we can use either equation $t_{f}$ 
 
+---
 
 $$
 \bar{y} = \frac{\left[ \frac{b t_f^2}{2} + (\bar{y} - t_f) b_w \left( t_f + \frac{\bar{y} - t_f}{2} \right) + (n-1) A'_s d' + n A_s d \right]}{\left[ b t_f + b_w (\bar{y} - t_f) + n A_s + (n-1) A'_s \right]}=5.74\text{"}
@@ -205,5 +206,17 @@ $$
 \rho'=\frac{A's}{b_{w}d}=\frac{2\text{ in}^2}{12\text{ in}\cdot 27.5\text{ in}}=0.00606
 $$
 $$
-\lambda_{\Delta}=\frac{\xi}{1+50\rho'}=
+\begin{align}
+\lambda_{\Delta LT}=\frac{\xi}{1+50\rho'}=\frac{3}{1+50(0.00606)}=2.3 \\
+\lambda_{\Delta D}=\frac{\xi}{1+50\rho'}=\frac{2}{1+50(0.00606)}=1.53  \\
+\lambda_{\Delta ST}=1 \\
+\end{align}
+$$
+Assuming that 80% is short term, and 20% is long term
+
+$$
+\Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}}
+$$
+$$
+\Delta=0.05243\cdot 1.53+0.10486\cdot 2.3 \cdot 80\% +0.10486\cdot 1 \cdot 20\%=\boxed{0.29\text{ in}}
 $$
