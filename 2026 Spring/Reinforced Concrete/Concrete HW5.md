@@ -147,7 +147,7 @@ $$
 $$
 I_{e_{1}}^-=9328.1\text{ in}^4
 $$
-our $I_{e_{1}}^-$ must be less than or equal to our $I_{g}^-$ so we just use $I_{g}^-$
+our $I_{e_{1}}^-$ must be less than or equal to our $I_{g}^-$ so we use $I_{e}^-$
 
 for the **negative moment** part, compression bar at the **right** side is 2#11, 2#9, 2#8, so $A's=2\cdot 1+2\cdot 1.56+2\cdot 0.79=6.7\text{ in}^2$
 **NOTE** in this case, our $b=b_{w}=12$
@@ -177,7 +177,7 @@ $$
 $$
 I_{e_{2}}^-=9696.5\text{ in}^4
 $$
-our $I_{e_{2}}^-$ must be less than or equal to our $I_{g}^-$ so we just use $I_{g}^-$
+our $I_{e_{2}}^-$ must be less than or equal to our $I_{g}^-$ so we use $I_{e}^-$
 
 ---
 Now we can finally calculate for $I_{e}$
@@ -185,20 +185,20 @@ $$
 I_{e}=0.50I_{e}^++0.25(I_{e_{1}}^-+I_{e_{2}}^-)
 $$
 $$
-I_{e}=0.50(19995)+0.25(27000+27000)=23497.5\text{ in}^4
+I_{e}=0.50(19995)+0.25(9328.1+9696.5)=14753.65\text{ in}^4
 $$
 ---
 going back to our original equation
 
-$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times 23497.5\text{ in}^4}=0.15729\text{ in}$$
+$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times14753.65\text{ in}^4}=0.25051\text{ in}$$
 now we need to separate the dead and live loads 
 $\omega_{D}=1.65\text{ kip/ft}=19800\text{ lb/in}$
 $\omega_{L}=3.3\text{ kip/ft}=39600\text{ lb/in}$
 
 $$
 \begin{align}
-\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}= \frac{0.15729\times19800}{19800+39600}= 0.05243\\
-\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{0.15729\times 39600}{19800+39600}=0.10486
+\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}= \frac{0.25051\times19800}{19800+39600}= 0.0835\\
+\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{0.25051\times 39600}{19800+39600}=0.167
 \end{align}
 $$
 calculate $\rho'$ for MIDSPAN
@@ -218,5 +218,6 @@ $$
 \Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}}
 $$
 $$
-\Delta=0.05243\cdot 1.53+0.10486\cdot 2.3 \cdot 80\% +0.10486\cdot 1 \cdot 20\%=\boxed{0.29\text{ in}}
+\Delta=0.0835\cdot 1.53+0.167\cdot 2.3 \cdot 80\% +0.167\cdot 1 \cdot 20\%=\boxed{0.468\text{ in}}
 $$
+
