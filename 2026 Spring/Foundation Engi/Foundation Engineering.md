@@ -8,3 +8,4 @@
 [[3.1 Shallow Foundations]]
 [[3.3 Bearing Failures]]
 [[3.4 Induced Stresses]]
+[[3.5 Settlement]]
