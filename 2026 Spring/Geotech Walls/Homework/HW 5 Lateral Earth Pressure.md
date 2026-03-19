@@ -152,3 +152,60 @@ u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 remember, the $\delta+\text{perpendicular of wall}$ is the angle of the force from the soil.
+
+---
+
+![[Pasted image 20260319141348.png]]
+
+For this questions we will be using Rankine's method, which means we will have an invisible wall.
+
+we use the equation 
+
+$$
+\begin{align}
+K_{a_{1}} = \frac{1 - \sin \phi'}{1 + \sin \phi'} = \tan^2 \left( 45 - \frac{\phi'}{2} \right) =\tan^2\left( 45-\frac{20}{2} \right)=0.49 \\ \\
+K_{a_{2}}=\tan^{2}\left(45-\frac{30}{2}\right)=0.3333 \\
+K_{a_{3}}=\tan^{2}\left(45-\frac{40}{2}\right)=0.217 \\
+\sigma'_{h,a} = K_a \sigma'_v - 2c' \sqrt{K_a} \\
+o'_{h,a}=(q+\gamma z)K_{a}-2c\sqrt{ K_{a} }
+\end{align}
+$$
+only difference now is that we have to worry about the cohesions of the soils. When there are multiple different cohesions, we have to worry about the interfacing of the soils.
+
+starting off, for the point at the soil surface 
+
+$$
+\sigma'_{h_{1}}=(1000+0)K_{a_{1}}-(2\cdot 400 \cdot \sqrt{ K_{a_{1}} })
+$$
+for the bottom of the soil layer 1, right before it reaches layer 2
+$$
+\sigma'_{h_{2}}=(1000+118\cdot 3.3)K_{a_{1}}-(2\cdot 400\cdot \sqrt{ K_{a_{1}} })
+$$
+this is for the top of the soil layer 2, 
+$$
+\sigma'_{h'_{2}}=(1000+118\cdot 3.3)K_{a_{2}}-(2\cdot 0\cdot \sqrt{ K_{a_{2}} })
+$$
+for when the ground water able starts, 
+$$
+\sigma'_{h_{3}}=(1000+118\cdot 3.3+116\cdot 3.3)K_{a_{2}}-0
+$$
+at the bottom of the 2nd soil layer
+$$
+\sigma'_{h_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{2}}-0
+$$
+
+at the top of the 3rd soil layer
+
+$$
+\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{3}}-0
+$$
+now, finally, at the bottom of the 3rd soil layer
+
+$$
+\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3+(120-62.4)\cdot 6.6]K_{a_{3}}-0
+$$
+
+We will also have to account for the lateral pressure due to the water as well. 
+$$
+u=(3.3+6.6)(62.4)=617.76\frac{\text{lb}}{\text{ft}^3}
+$$
