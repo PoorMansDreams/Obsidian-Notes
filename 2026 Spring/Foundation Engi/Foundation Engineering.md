@@ -9,3 +9,5 @@
 [[3.3 Bearing Failures]]
 [[3.4 Induced Stresses]]
 [[3.5 Settlement]]
+[[3.6 Foundation Design]]
+
