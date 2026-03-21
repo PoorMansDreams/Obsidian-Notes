@@ -1,4 +1,24 @@
 
+---
+### <p align="left"><center>Memorandum</center></p>
+
+
+
+To: Dr. Amr M. Morsy
+
+From: Andy Nguyen
+
+Date: 3-21-2026
+
+Subject: HW5 Slope Stability
+
+---
+
+Below are calculations for calculations involving the lateral earth pressure for different walls and scenarios. Rankine and Coulomb's method are used for all four cases. Rankine will be used for the 5th case. 
+![[Signature.excalidraw|200]]
+<div style="page-break-after: always;"></div>
+
+
 ![[Pasted image 20260317141328.png]]
 
 We will be using Rankine's method to solve for all the lateral earth pressures in the walls.
