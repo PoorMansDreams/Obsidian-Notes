@@ -148,12 +148,11 @@ $$
 \sigma'_{h,a,1}=(0+0)\times 0.44-0=0 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,2}=(0+100\cdot 6.6)\times 0.44-0=290.4 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,3}=(0+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.44-0=783.49 \frac{\text{lb}}{\text{ft}^3} \\
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 remember, the $\delta+\text{perpendicular of wall}$ is the angle of the force from the soil.
 
-<<<<<<< HEAD:2026 Spring/Geotech Walls/Homework/HW 5 Lateral Earth Pressure.md
 ---
 
 ![[Pasted image 20260319141348.png]]
@@ -210,5 +209,4 @@ We will also have to account for the lateral pressure due to the water as well.
 $$
 u=(3.3+6.6)(62.4)=617.76\frac{\text{lb}}{\text{ft}^3}
 $$
-=======
->>>>>>> origin/main:2026 Spring/Geotech Walls/Homework/HW 4 Lateral Earth Pressure.md
+
