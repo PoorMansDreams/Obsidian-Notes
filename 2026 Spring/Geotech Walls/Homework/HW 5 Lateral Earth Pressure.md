@@ -175,34 +175,34 @@ only difference now is that we have to worry about the cohesions of the soils. W
 starting off, for the point at the soil surface 
 
 $$
-\sigma'_{h_{1}}=(1000+0)K_{a_{1}}-(2\cdot 400 \cdot \sqrt{ K_{a_{1}} })
+\sigma'_{h_{1}}=(1000+0)K_{a_{1}}-(2\cdot 400 \cdot \sqrt{ K_{a_{1}} })=-70\frac{\text{lb}}{\text{ft}^3}
 $$
 for the bottom of the soil layer 1, right before it reaches layer 2
 $$
-\sigma'_{h_{2}}=(1000+118\cdot 3.3)K_{a_{1}}-(2\cdot 400\cdot \sqrt{ K_{a_{1}} })
+\sigma'_{h_{2}}=(1000+118\cdot 3.3)K_{a_{1}}-(2\cdot 400\cdot \sqrt{ K_{a_{1}} })=120.806\frac{\text{lb}}{\text{ft}^3}
 $$
 this is for the top of the soil layer 2, 
 $$
-\sigma'_{h'_{2}}=(1000+118\cdot 3.3)K_{a_{2}}-(2\cdot 0\cdot \sqrt{ K_{a_{2}} })
+\sigma'_{h'_{2}}=(1000+118\cdot 3.3)K_{a_{2}}-(2\cdot 0\cdot \sqrt{ K_{a_{2}} })=463.087\frac{\text{lb}}{\text{ft}^3}
 $$
 for when the ground water able starts, 
 $$
-\sigma'_{h_{3}}=(1000+118\cdot 3.3+116\cdot 3.3)K_{a_{2}}-0
+\sigma'_{h_{3}}=(1000+118\cdot 3.3+116\cdot 3.3)K_{a_{2}}-0=590.14\frac{\text{lb}}{\text{ft}^3}
 $$
 at the bottom of the 2nd soil layer
 $$
-\sigma'_{h_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{2}}-0
+\sigma'_{h_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{2}}-0=649.04\frac{\text{lb}}{\text{ft}^3}
 $$
 
 at the top of the 3rd soil layer
 
 $$
-\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{3}}-0
+\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3]K_{a_{3}}-0=422.95\frac{\text{lb}}{\text{ft}^3}
 $$
 now, finally, at the bottom of the 3rd soil layer
 
 $$
-\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3+(120-62.4)\cdot 6.6]K_{a_{3}}-0
+\sigma'_{h'_{4}}=[1000+118\cdot 3.3+116\cdot 3.3+(116-62.4)\cdot 3.3+(120-62.4)\cdot 6.6]K_{a_{3}}-0=2329.24\frac{\text{lb}}{\text{ft}^3}
 $$
 
 We will also have to account for the lateral pressure due to the water as well. 
