@@ -35,7 +35,7 @@ $$
 $$
 now we have to lateral earth pressure of the water itself 
 $$
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 $$
 
 ii.) given our $\delta=\frac{2}{3}$ we need to use Coulombs method
@@ -50,7 +50,7 @@ $$
 \sigma'_{h,a,1}=(420+0)\times 0.26-0=109.2 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,2}=(420+100\cdot 6.6)\times 0.26-0=280.8 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,3}=(420+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.26-0=572.1768 \frac{\text{lb}}{\text{ft}^3} \\
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 ---
@@ -71,7 +71,7 @@ $$
 \sigma'_{h,a,3}=(0+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.291-0=518.17788 \frac{\text{lb}}{\text{ft}^3}
 $$
 $$
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 $$
 
 ii). Using Coulomb, $K_{a}$ will be different from our first because of the new angles
@@ -85,7 +85,7 @@ $$
 \sigma'_{h,a,1}=(0+0)\times 0.38-0=0 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,2}=(0+100\cdot 6.6)\times 0.38-0=250.8 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,3}=(0+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.38-0=676.65 \frac{\text{lb}}{\text{ft}^3} \\
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 ---
@@ -102,7 +102,7 @@ $$
 \sigma'_{h,a,1}=(0+0)\times 0.31-0=0 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,2}=(0+100\cdot 6.6)\times 0.31-0=204.6 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,3}=(0+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.31-0=552.01 \frac{\text{lb}}{\text{ft}^3} \\
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 The lateral earth pressure direction will be at an angle, **this angle is the same as the ground surface inclination** so the angle the lateral earth pressure is at is $10^\circ$ 
@@ -114,7 +114,7 @@ $$
 \sigma'_{h,a,1}=(0+0)\times 0.30-0=0 \frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,2}=(0+100\cdot 6.6)\times 0.30-0= 198\frac{\text{lb}}{\text{ft}^3} \\
 \sigma'_{h,a,3}=(0+(100\cdot 6.6)+(119-62.4)\cdot 19.8)\times 0.30-0= 534.204\frac{\text{lb}}{\text{ft}^3} \\
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 ---
