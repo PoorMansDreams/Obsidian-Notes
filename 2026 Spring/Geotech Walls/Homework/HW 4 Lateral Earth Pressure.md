@@ -135,10 +135,10 @@ $$
 \sigma'_{h,a,2}=(0+100\cdot (6.6+6.6\tan 10))\times 0.31-0=240.653 \frac{\text{lb}}{\text{ft}^3}
 $$
 $$
-\sigma'_{h,a,3}=(0+(100\cdot 7.763)+(119-62.4)\cdot 19.8)\times 0.31-0=588.0638 \frac{\text{lb}}{\text{ft}^3}
+\sigma'_{h,a,3}=(0+(100\cdot (6.6+6.6\tan 10))+(119-62.4)\cdot 19.8)\times 0.31-0=588.0638 \frac{\text{lb}}{\text{ft}^3}
 $$
 $$
-u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
+u=\gamma_{w}\times 19.8=62.4\times 19.8 =1235.52\frac{\text{lb}}{\text{ft}^3}
 $$
 ii.) Solving for Coulomb, 
 $\beta=76^\circ$ $\phi=33^\circ$ $\delta=\frac{2}{3}\times 33^\circ=22^\circ$ $\alpha=10^\circ$ $K_{a}=0.44$
@@ -152,3 +152,4 @@ u=\gamma_{w}\times 19.8=64.2\times 19.8 =1271.16\frac{\text{lb}}{\text{ft}^3}
 \end{align}
 $$
 remember, the $\delta+\text{perpendicular of wall}$ is the angle of the force from the soil.
+
