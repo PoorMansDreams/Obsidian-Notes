@@ -32,7 +32,7 @@ We also have to worry about where the rebar is located as well. If the concrete 
 To calculate this, we first need to find the dimensions of the crossection. 
 
 the spacing, or $S_{c}$ is 3.43", 
-and the cover depth 1.41"
+and the cover depth 1.875"
 
 There is also more than 12 inches of fresh concrete below the rebar. 
 
