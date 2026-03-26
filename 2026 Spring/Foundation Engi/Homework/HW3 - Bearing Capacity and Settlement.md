@@ -15,7 +15,7 @@ Subject: HW3 Bearing Capacity and Settlement
 
 ---
 
-Below are calculations for the Bearing Capacity and Settlement of several different scenarios. 
+Below are calculations for the Bearing Capacity and Settlement of several different scenarios. To calculate for B for some of the equations, excel was used to make the iteration process easier. All examples are solved with work shown. 
 ![[Signature.excalidraw|200]]
 <div style="page-break-after: always;"></div>
 
