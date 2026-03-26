@@ -1,4 +1,29 @@
 
+
+---
+### <p align="left"><center>Memorandum</center></p>
+
+
+
+To: Dr. Amr M. Morsy
+
+From: Andy Nguyen
+
+Date: 3-25-2026
+
+Subject: HW3 Bearing Capacity and Settlement
+
+---
+
+Below are calculations for the Bearing Capacity and Settlement of several different scenarios. 
+![[Signature.excalidraw|200]]
+<div style="page-break-after: always;"></div>
+
+
+
+
+
+
 1. 
 A footing of area 6 ft x 6 ft is constructed at a depth 6 ft from the ground surface in a silty clay
 soil with c' = 820 psf, $\phi$' = 20º, and $\gamma$ = 118.5 pcf. Calculate the ultimate bearing capacity (gross
@@ -272,17 +297,21 @@ capacity. Apply a factor of safety of 2.0 to the net ultimate bearing capacity
 5. 
 ![[Pasted image 20260325225006.png]] 
 
+geostatic effective vertical stresses?
+
+$$
+\sigma'=10(100)+12(106-62.4)+3(112-62.4)=1672 \frac{\text{lb}}{\text{ft}^2}
+$$
+
+---
+
+Induced effective stress at points a and b from the building?
+
 solve for eff. vertical stress at a.
 
 $q_{net}=q-q_{removed}$
 $q_{net}=2000-5\times 100=1500 \frac{\text{lb}}{\text{ft}^2}$
 
-overburden stress
-$$
-\sigma'_{D}=10(100)+12(106-62.4)+3(112-62.4)=1672 \frac{\text{lb}}{\text{ft}^2}
-$$
-
-the overburden stress is the same for both $a$ and $b$.
 
 at the center, $m_{1}=m_{2}=m_{3}=m_{4}$ and $n_{1}=n_{2}=n_{3}=n_{4}$
 
@@ -324,6 +353,13 @@ Using 2:1 method
 $$
 \Delta \sigma_{z}=q\times \frac{BL}{(B+z)(L+z)}=\frac{100\cdot 120}{(100+20)(120+20)}=1071.43 \frac{\text{lb}}{\text{ft}^2}
 $$
+
+according to 2:1 method, it assumes that any area under the projected is $\Delta_{\sigma_{z}}$
+$$
+\Delta \sigma_{a}=\Delta \sigma_{b}=1071.43 \frac{\text{lb}}{\text{ft}^2}
+$$
+
+
 
 
 
