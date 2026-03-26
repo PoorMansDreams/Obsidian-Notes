@@ -243,7 +243,88 @@ $B=4.165'$
 
 ---
 
-3. 
+3.  ![[Pasted image 20260325195335.png]]
+use equations 
+$$
+S=\delta=m_{v}\cdot \Delta \sigma \cdot H
+$$
+There are two layers, so we have to separate it into $S_{1}$ and $S_{2}$
+
+Using 2:1 method, we can calculate the $\Delta \sigma$
+adapting from the original equation, of 
+
+$$
+\Delta \sigma=q_{applied, net}\cdot \frac{B\times L}{(B+z)(L+z)}
+$$
+
+![[Pasted image 20260325220736.png]]
+
+---
+4. A raft 45 ft x 45 ft is designed to support a residential building with a basement. The foundation
+level is 15 ft below the ground surface. The supporting soil is deep clay of $\gamma$ = 110 pcf, su = 0.9
+ksf. The groundwater table is 1.0 ft below the ground surface. Estimate the allowable bearing
+capacity. Apply a factor of safety of 2.0 to the net ultimate bearing capacity
+
+![[Pasted image 20260325224526.png]]
+
+---
+
+5. 
+![[Pasted image 20260325225006.png]] 
+
+solve for eff. vertical stress at a.
+
+$q_{net}=q-q_{removed}$
+$q_{net}=2000-5\times 100=1500 \frac{\text{lb}}{\text{ft}^2}$
+
+overburden stress
+$$
+\sigma'_{D}=10(100)+12(106-62.4)+3(112-62.4)=1672 \frac{\text{lb}}{\text{ft}^2}
+$$
+
+the overburden stress is the same for both $a$ and $b$.
+
+at the center, $m_{1}=m_{2}=m_{3}=m_{4}$ and $n_{1}=n_{2}=n_{3}=n_{4}$
+
+$$
+m=\frac{B_{1}}{z}=\frac{50}{20}=2.5 \hspace{10pt} n=\frac{L_{1}}{z}=\frac{60}{20}=3
+$$
+
+using the influence value table, $I_{z}=0.245$
+knowing this, 
+
+$$
+\Delta \sigma_{a}=q\cdot \sum I_{z}=q\times(I_{z_{1}}+I_{z_{2}}+I_{z_{3}}+I_{z_{4}})
+$$
+
+all the $I_{z}$ are the same since this is at the center, so
+
+$$
+\Delta \sigma_{a}=1500\cdot 4\cdot 0.245=1470 \frac{\text{lb}}{\text{ft}^2}
+$$
+
+---
+
+solving for eff. vertical stress at b?
+
+$$
+m=\frac{100}{20}=5 \hspace{10pt} n=\frac{120}{20}=6
+$$
+
+using table, $I_{z}=0.247$
+
+$$
+\Delta \sigma_{b}=0.247\cdot 1500 = 373\frac{\text{lb}}{\text{ft}^2}
+$$
+
+---
+
+Using 2:1 method
+
+$$
+\Delta \sigma_{z}=q\times \frac{BL}{(B+z)(L+z)}=\frac{100\cdot 120}{(100+20)(120+20)}=1071.43 \frac{\text{lb}}{\text{ft}^2}
+$$
+
 
 
 
