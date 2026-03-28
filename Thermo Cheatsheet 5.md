@@ -1,4 +1,4 @@
-winterpolation formula
+interpolation formula
 $$
 y - y_1 = \frac{y_2 - y_1}{x_2 - x_1} (x - x_1)
 $$
