@@ -47,7 +47,7 @@ I_{g}^+&=38437.5\text{ in}^4
 $$
 Now we calculate $M_{cr}$
 $$
-M_{cr}^+=\frac{f_{r}I_{g}}{y_{t}}=\frac{474.34\times 38437.5}{17.5}=1041853.93\text{ lb-in}
+M_{cr}^+=\frac{f_{r}I_{g}}{y_{t}}=\frac{474.34\times 38437.5}{17.5}=1041853.93\text{ lb-in}=86821.16 \text{lb-ft}
 $$
 Effective Moment of inertia for **Positive Moment**
 
@@ -114,7 +114,7 @@ $$
 d in the $I_{g}$ equation is the distance of the "segment" from $\bar{y}$ , since there's no distance from $\bar{y}$ it's just 0. 
 Now we calculate $M_{cr}$
 $$
-M_{cr}^-=\frac{f_{r}I_{g}}{y_{t}}=\frac{474.34\times 27000}{15}=853812\text{ lb-in}
+M_{cr}^-=\frac{f_{r}I_{g}}{y_{t}}=\frac{474.34\times 27000}{15}=853812\text{ lb-in}=71151 \text{lb-ft}
 $$
 
 for the **negative moment** part, compression bar at the **left** side is 2#11, 2#9, 2#9, so $A's=4\cdot 1+2\cdot 1.56=7.12\text{ in}^2$
@@ -122,11 +122,11 @@ for the **negative moment** part, compression bar at the **left** side is 2#11, 
 and the $As=2\text{ in}^2$, use the same equations, but this time the flange is 0, so $\bar{y}$ will always be bigger than $t_{f}$, we can use either equation $t_{f}$ 
 
 $$
-\bar{y} = \frac{\left[ \frac{b t_f^2}{2} + (\bar{y} - t_f) b_w \left( t_f + \frac{\bar{y} - t_f}{2} \right) + (n-1) A'_s d' + n A_s d \right]}{\left[ b t_f + b_w (\bar{y} - t_f) + n A_s + (n-1) A'_s \right]}=5.67\text{"}
+\bar{y} = \frac{\left[ \frac{b t_f^2}{2} + (\bar{y} - t_f) b_w \left( t_f + \frac{\bar{y} - t_f}{2} \right) + (n-1) A'_s d' + n A_s d \right]}{\left[ b t_f + b_w (\bar{y} - t_f) + n A_s + (n-1) A'_s \right]}=11.46\text{"}
 $$
 
 $$
-\bar{y}=\frac{b\bar{y}\left( \frac{\bar{y}}{2} \right)+nAsd+(n-1)A'sd'}{b\bar{y}+nAs+(n-1)A's}=5.67\text{"}
+\bar{y}=\frac{b\bar{y}\left( \frac{\bar{y}}{2} \right)+nAsd+(n-1)A'sd'}{b\bar{y}+nAs+(n-1)A's}=11.46\text{"}
 $$
 
 now for the $I_{cr_{1}}^-$ remember, $t_{f}=0$
@@ -134,18 +134,15 @@ $$
 I_{cr_{1}}^-=\frac{bt_{f}^3}{12}+\frac{(\bar{y}-t_{f})^3b_{w}}{12}+bt_{f}\left( \bar{y}-\frac{t_{f}}{2} \right)^2+(\bar{y}-t_{f})b_{w}\left( \frac{\bar{y}-t_{f}}{2} \right)^2+(n-1)A's(\bar{y}-d')^2+nAs(d-\bar{y})^2
 $$
 $$
-I_{cr_{1}^-}=8911.1\text{ in}^4
+I_{cr_{1}^-}=21798.94\text{ in}^4
 $$
-now, find the $M_{cr}^-$
-$$
-M_{cr}^-=\frac{474.34\times 27000}{15}=853812
-$$
+
 now we try to find $I_{e_{1}}^-$ for the LEFT side
 $$
 I_{e_{1}}^-=(\frac{M_{cr}^-}{M_{1}^-})^3I_{g}^-+(1-(\frac{M_{cr}^-}{M_{1}^-})^3)I_{cr}^-\leq I_{g}^-
 $$
 $$
-I_{e_{1}}^-=9328.1\text{ in}^4
+I_{e_{1}}^-=21918.8\text{ in}^4
 $$
 our $I_{e_{1}}^-$ must be less than or equal to our $I_{g}^-$ so we use $I_{e}^-$
 
@@ -156,15 +153,15 @@ and the $As=2\text{ in}^2$, use the same equations, but this time the flange is 
 ---
 
 $$
-\bar{y} = \frac{\left[ \frac{b t_f^2}{2} + (\bar{y} - t_f) b_w \left( t_f + \frac{\bar{y} - t_f}{2} \right) + (n-1) A'_s d' + n A_s d \right]}{\left[ b t_f + b_w (\bar{y} - t_f) + n A_s + (n-1) A'_s \right]}=5.74\text{"}
+\bar{y} = \frac{\left[ \frac{b t_f^2}{2} + (\bar{y} - t_f) b_w \left( t_f + \frac{\bar{y} - t_f}{2} \right) + (n-1) A'_s d' + n A_s d \right]}{\left[ b t_f + b_w (\bar{y} - t_f) + n A_s + (n-1) A'_s \right]}=10.42\text{"}
 $$
 
 $$
-\bar{y}=\frac{b\bar{y}\left( \frac{\bar{y}}{2} \right)+nAsd+(n-1)A'sd'}{b\bar{y}+nAs+(n-1)A's}=5.74\text{"}
+\bar{y}=\frac{b\bar{y}\left( \frac{\bar{y}}{2} \right)+nAsd+(n-1)A'sd'}{b\bar{y}+nAs+(n-1)A's}=10.42\text{"}
 $$
 so then, our $I_{cr_{2}}^-$ is 
 $$
-I_{cr_{2}}^-=8880.7\text{ in}^4
+I_{cr_{2}}^-=18426.3\text{ in}^4
 $$
 
 now we try to find $I_{e_{2}}^-$ for the RIGHT side
@@ -175,7 +172,7 @@ I_{e_{2}}^-=(\frac{M_{cr}^-}{M_{2}^-})^3I_{g}^-+(1-(\frac{M_{cr}^-}{M_{2}^-})^3)
 $$
 
 $$
-I_{e_{2}}^-=9696.5\text{ in}^4
+I_{e_{2}}^-=18812.3 \text{ in}^4
 $$
 our $I_{e_{2}}^-$ must be less than or equal to our $I_{g}^-$ so we use $I_{e}^-$
 
@@ -185,20 +182,20 @@ $$
 I_{e}=0.50I_{e}^++0.25(I_{e_{1}}^-+I_{e_{2}}^-)
 $$
 $$
-I_{e}=0.50(19995)+0.25(9328.1+9696.5)=14753.65\text{ in}^4
+I_{e}=0.50(19995)+0.25(21918.8.1+18812.3)=19681.4\text{ in}^4
 $$
 ---
 going back to our original equation
 
-$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times14753.65\text{ in}^4}=0.25051\text{ in}$$
+$$\Delta_{d+l}=\frac{7700\times (12\text{ in})^3}{3.60\times 10^3 \frac{\text{lb}}{\text{in}^2} \times19681.4\text{ in}^4}=0.19\text{ in}$$
 now we need to separate the dead and live loads 
 $\omega_{D}=1.65\text{ kip/ft}=19800\text{ lb/in}$
 $\omega_{L}=3.3\text{ kip/ft}=39600\text{ lb/in}$
 
 $$
 \begin{align}
-\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}= \frac{0.25051\times19800}{19800+39600}= 0.0835\\
-\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{0.25051\times 39600}{19800+39600}=0.167
+\Delta_{D}=\frac{\Delta_{D+L}\times \omega_{D}}{\omega_{D}+\omega_{L}}= \frac{0.19\times19800}{19800+39600}= 0.063\\
+\Delta_{L}=\frac{\Delta_{D+L}\times \omega_{L}}{\omega_{D}+\omega_{L}}=\frac{0.19\times 39600}{19800+39600}=0.13
 \end{align}
 $$
 calculate $\rho'$ for MIDSPAN
@@ -218,6 +215,6 @@ $$
 \Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}}
 $$
 $$
-\Delta=0.0835\cdot 1.53+0.167\cdot 2.3 \cdot 80\% +0.167\cdot 1 \cdot 20\%=\boxed{0.468\text{ in}}
+\Delta=0.063\cdot 1.53+0.13\cdot 2.3 \cdot 80\% +0.13\cdot 1 \cdot 20\%=\boxed{0.27\text{ in}}
 $$
 
