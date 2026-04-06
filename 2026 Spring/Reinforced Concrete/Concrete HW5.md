@@ -215,6 +215,7 @@ $$
 \Delta=\Delta_{D}\lambda_{D}+\Delta_{L_{ST}}\gamma_{L_{ST}}+\Delta_{L_{LT}}\gamma_{L_{LT}}
 $$
 $$
-\Delta=0.063\cdot 1.53+0.13\cdot 2.3 \cdot 80\% +0.13\cdot 1 \cdot 20\%=\boxed{0.27\text{ in}}
+\Delta=0.063\cdot 1.53+0.13\cdot 1 \cdot 80\% +0.13\cdot 2.3 \cdot 20\%=\boxed{0.27\text{ in}}
 $$
+
 
