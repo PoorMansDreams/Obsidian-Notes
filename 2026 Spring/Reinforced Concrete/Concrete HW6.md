@@ -4,7 +4,7 @@
 
 In each of the examples, most variables are the same, except the rebar type. 
 $d_{b}=1\text{ in (diameter)}$
-$S_{c}=\frac{12-2(1.5)-2(0)-3(1)}{3-1}=3\text{ in}$
+$S_{c}=\frac{12-2(1.5)-2(0.375)-3(1)}{3-1}=3\text{ in}$
 base - 2(cover) - 2(diameter leg) - number of rebar(diameter rebar) / number of rebar - 1
 
 
@@ -44,7 +44,7 @@ $$
 $$
 
 for $\psi_{c}$, our rebar is indeed smaller than #11, and the cover on the hook tail is 2". Assuming the cover inside the column is greater than or equal to 2.5", 
-for $\psi_{r}$ the spacing on the hook tail is 2". which is less than $3\cdot d_{b}=3\cdot 1\text{ in}$
+for $\psi_{r}$ the spacing on the hook tail is 3". which is less or equal to  $3\cdot d_{b}=3\cdot 1\text{ in}$
 
 following the table, $\begin{align} \psi_{e}=1 & &  \psi_{c}=0.7  &  & \psi_{r}=0.8 \end{align}$ 
 
