@@ -10,4 +10,5 @@
 [[3.4 Induced Stresses]]
 [[3.5 Settlement]]
 [[3.6 Foundation Design]]
+[[4.1 Deep Foundation Types]]
 
