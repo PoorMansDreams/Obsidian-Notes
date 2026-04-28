@@ -11,4 +11,9 @@
 [[3.5 Settlement]]
 [[3.6 Foundation Design]]
 [[4.1 Deep Foundation Types]]
+[[4.2 Axial Capacity]]
+[[4.3 Required Number of Piles]]
+[[4.4 Other Considerations (piles)]]
+[[4.5 Group Action]]
+[[4.6 Settlement]]
 
