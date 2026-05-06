@@ -109,6 +109,11 @@ $$
 
 Based on these values, we can apply beam design. 
 moment ult was multiplied by 12 and 1000 to convert to inch-pounds
+
+NOTE, MUST be in lb-in
+$$
+As=\left[0.85f'c\cdot b\cdot d\left(1-\sqrt{1-\frac{\left|4Mu\right|}{1.7 \phi\ f'c\cdot b\cdot d^{2}}}\right)\right]\times \frac{1}{fy}
+$$
 $$
 As=\frac{0.85(4000)(12)(5.5)\left( 1-\sqrt{ 1-\frac{4|2.41\times 12\times 1000|}{1.7(0.9)(4000)(12)(5.5^2)} } \right)}{60000}=0.099 \approx 0.1 \text{in}^2
 $$
@@ -127,9 +132,88 @@ $V_{n}=V_{c}=2\lambda \sqrt{ f'c }\times bd=2\times 1 \times \sqrt{ 4000 } \time
 our $\phi=0.75$ 
 
 $$
-V_{u}\times \phi=6263\text{ lb}>V_{n} \text{ OK}
+V_{n}\times \phi=6263\text{ lb}>V_{u} \text{ OK}
 $$
 
+--- 
+
+**Two Way Slabs**
+
+For slabs,  $L_{B}$ is the longer side, and $L_A$ is the short side, 
+
+when saying moment along the $L_{A}$ direction, imagine a beam parallel with $L_{A}$, the moment on that beam is what the moment is 
+
+We have a chart that describes the different moments for different cases.
+
+![[Pasted image 20260505172853.png]]
+
+To use a chart like this, let's say $\frac{L_{a}}{L_{b}}=0.75$ and it is a Case 8. 
+
+This means that 
+
+$$
+M_{u,a}^+=M_{uDL}^++M_{uLL}^+=(c_{a}\times w_{uD}\times L_{a}^2)+(c_{a}\times w_{uL}\times L_{a}^2)
+$$
+ This is similar for b as well
+ 
+$$
+M_{u,b}^+=M_{uDL}^++M_{uLL}^+=(c_{b}\times w_{uD}\times L_{b}^2)+(c_{b}\times w_{uL}\times L_{b}^2)
+$$
+
+![[Pasted image 20260505173345.png]]
+
+![[Pasted image 20260505174711.png]]
+
+For negative moments, the simply supported sides have zero moment, which is why some boxes are left empty 
+
+![[Pasted image 20260505174826.png]]
+
+This table is for shear, Lets say we have a 8x10 foot slab, $w_{D}=1\text{ kip/ft}^2$  and $w_{L}=2\text{ kip/ft}^2$
+
+so, $w_{u}=1.2\times 1+1.6 \times 2 =4.4\text{ kip/ft}^2$
+$$
+\begin{align}
+\frac{L_{a}}{L_{b}}=\frac{8}{10}=0.8 \\
+\text{Case 3,} \\
+w_{a}=0.33 \\
+w_{b}=0.67
+\end{align}
+$$
+This means that most of the load will go to the $L_{b}$ side, (the left and right side). In this case, this is because of the case 3, there is fixed points on the left and right. 
+
+To calculate this,
+
+$$
+w_{u,a}=0.33\times 8 \times 10 \times 4.4 =116.16 \text{ kips}
+$$
+
+$$
+w_{u,b}=0.67\times 8 \times 10 \times 4.4 = 235.84 \text{ kips}
+$$
+
+After finding the load, we have to divide it by two since there are two sides (116.16 kips is the TOTAL load on the slab
+
+In this case (3), that means that there is $\frac{116.16}{2}\text{ kips}$ on the length $L_{b}$ . The shear per foot would be $\frac{116.16}{2}\text{ kip}/10\text{ ft}$ so, 5.808 kips per foot length on the $L_{b}$ side. (the shear comes from $w_{a}$)
+
+That means that for the length $L_{a}$ we use the shear from $w_{b}$ so $\frac{235.84}{2}\text{ kips}/8\text{ ft}=14.74\text{ kip/ft}$ 
 
 
+![[Pasted image 20260505180922.png]]
+
+In this case, it is a spandrel beam or rigid, meaning it is supported ALL around, meaning it is a case 2. 
+
+In the example, we will have to look at the negative and positive tables for both A and B sides. 
+
+Doing the negative moment first, we simply find $w_{u}$ (Factored Load) and then multiplied it with $C_{a,neg}$ and $C_{b, neg}$
+
+![[Pasted image 20260505181404.png]]
+
+for shear, it is still a case 2, The $w_u=104$ so then
+
+$w_{u,a}=0.71\times 104 \times 10 \times 12.5=9230\text{ lb}$ 
+NOTE, This is the load for both sides, so we need to divide by 2 to make it for ONE side $\frac{9230}{2}=4615\text{ lb}$ 
+
+Now, if we want to know the loading per unit length, it would be $\frac{4615\text{ lb}}{12.5\text{ ft}}=369.2\text{ lb/ft}$
+
+---
 
