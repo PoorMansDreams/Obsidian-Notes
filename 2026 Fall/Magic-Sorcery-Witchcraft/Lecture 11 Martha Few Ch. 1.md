@@ -15,3 +15,20 @@ Marginalized women wielded degrees of agency through knowledge of healing and sp
 
 These witch-women were actually consulted by others (they were empowered). The colonizers, in short, believed they really could do what they do.
 
+- Manifestations of sorcery by indigenous women reflects "conflict within a culture" indigenous women used their power to negotiate in their community - The state tried to limit this power
+- Women's power was checked by colonial rule, the inquisition, patriarchy, and any enemy they made
+- She looks at colonialism as a contested process - and includes indigenous responses to colonial rule
+
+- Black Mestiza, and Mulatta women were targeted,
+- Men who also had sorcery networks were not similarly targeted (Men were not considered as suseptable?)
+
+- Women healers used their knowledge of nature to treat people, they held authority through this. 
+	- People suspect of witchcraft were not only women, but also black and mulatto women. 
+	- Shortage of trained Spanish doctors in Guatemala during the colonial period. 
+	- Faith Healing
+- Alot of people in the colonial era was a time of epidemics like typhus, smallpox and plague. 
+- Many indigenous people saw that illness was rooted from witchcraft
+- Healing was good! so it was a blessing from God!
+
+- Sometimes, non-Spanish women would threaten to cause illness. 
+- women's participation in sorcery and healing magic was a form of resistance to colonialism and patriarchy. 
