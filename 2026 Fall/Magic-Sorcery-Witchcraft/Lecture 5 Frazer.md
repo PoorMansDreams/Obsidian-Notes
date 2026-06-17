@@ -1,4 +1,4 @@
-
+#Magic
 James George Frazer - (1845-1941) Social Anthropologist, Glasgow, Scotland, inspired by Tylor
 
 Had a similar evolution theory. Famous for *The Golden Bough* which is in 12 volumes, armchair anthropologist (never went out) 

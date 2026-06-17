@@ -1,3 +1,4 @@
+#Magic
 ### Stratton Chapter 1 and Michel
 Magic is the product of the body of scholarship on the topic. In short, Everything we know about magic is just what was written before. 
 

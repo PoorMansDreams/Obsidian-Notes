@@ -1,3 +1,4 @@
+#Magic
 "There is no church of magic" 1858-1917, "Father of Sociology"
 
 French, Jewish family, Positivist, now functionalist (sees how everything functions in society) Religion must function somehow.

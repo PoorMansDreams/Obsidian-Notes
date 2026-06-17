@@ -1,3 +1,4 @@
+#Magic
 
 How to define the differences between Magic, sorcery, witchcraft? 
 

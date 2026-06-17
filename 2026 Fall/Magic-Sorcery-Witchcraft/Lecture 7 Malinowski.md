@@ -1,3 +1,4 @@
+#Magic
 Bronislaw Malinowski 1884-1942 Actually traveled to places he wrote about, was more sympathetic to magic and religious.
 
 Malinowski believes that magic is a form of pseudo science. People carrying religious acts or magical acts are not crazy, they are doing it to do something positive for their community. 

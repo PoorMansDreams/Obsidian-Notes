@@ -1,3 +1,4 @@
+#Magic
 Still alive, always consider that the scholars and people who analyze magic are all in search of revenge. 
 
 - Scholars of magic are trying to position modernity as intrinsically different and superior

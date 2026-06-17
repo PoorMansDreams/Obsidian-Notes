@@ -1,3 +1,4 @@
+#Magic 
 Sir Edward Burnett Tylor (1832-1917)
 Author of *Primitive Culture*, was into Darwinian. Never held a university degree. Was primarily a armchair anthropologist. 
 
