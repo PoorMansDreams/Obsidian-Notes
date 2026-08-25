@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1773788088992,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1773788042752,
+          "path": "2026 Spring/Foundation Engi/Foundation Engineering.md",
+          "title": "Foundation Engineering"
+        },
+        {
+          "type": "file",
+          "ctime": 1773788118512,
+          "path": "2026 Spring/Reinforced Concrete/Reinforced Concrete.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1773788163492,
+          "path": "2026 Spring/Geotech Walls/Geotech Walls and Slopes.md"
+        }
+      ],
+      "title": "Table of Contents"
+    }
+  ]
+}
