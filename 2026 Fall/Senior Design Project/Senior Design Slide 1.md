@@ -1,4 +1,4 @@
-![[Pasted image 20260824172140.png]]
+![[Pasted image 20260824172140.png|364]]
 
 - Background Research
 	- Stakeholders
@@ -20,6 +20,7 @@
 	- manage expectations, using diagrams, tables, figures, text, etc. 
 
 ---
-# WE GET INDUSTRY ADVISORS MAYBE
+
+
 
 
