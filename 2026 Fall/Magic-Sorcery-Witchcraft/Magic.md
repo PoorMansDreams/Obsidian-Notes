@@ -1,4 +1,4 @@
-[[Lecture 1]]
+[[2026 Fall/Magic-Sorcery-Witchcraft/Lecture 1]]
 [[Lecture 2 - Stratton Ch 1-2]]
 [[Lecture 4 Tylor]]
 [[Lecture 5 Frazer]]
