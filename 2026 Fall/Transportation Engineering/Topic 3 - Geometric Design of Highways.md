@@ -102,3 +102,5 @@ In short, is is the "height" of the slope if you were looking at the plane of th
 
 ![[Pasted image 20260910210621.png]]
 ![[Pasted image 20260910210656.png]]
+
+![[Pasted image 20260910211231.png]]
