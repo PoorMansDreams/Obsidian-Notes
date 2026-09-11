@@ -96,9 +96,9 @@ Pavement Crowns are needed so that water flows away from the road
 
 ![[Pasted image 20260910210521.png]]
 
-Superelevation is the difference in height between the inner radius of the turn and the height of the outer radius of the turn. 
+Superelevation is the difference in height between the inner radius of the turn and the height of the outer radius of the turn. Superelevation is usually shown in %
 
 In short, is is the "height" of the slope if you were looking at the plane of the pavement. 
 
 ![[Pasted image 20260910210621.png]]
-
+![[Pasted image 20260910210656.png]]
