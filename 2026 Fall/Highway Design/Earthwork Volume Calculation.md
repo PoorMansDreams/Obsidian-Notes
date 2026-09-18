@@ -12,7 +12,7 @@ At station 0+600, the cross section area is 100m$^2$ of fill. At station 0+700, 
 
 Note that the station at 0+600, it is **fill**, and station 0+700, it is **cut**. The grade point is the point where there is no fill or cut. 
 
-![[Cut-Fill Ex]]
+![[Grade Ex]]
 For the sake of simplicity, we imagine the fill area to be perfectly rectangular 
 $$
 \begin{align}
