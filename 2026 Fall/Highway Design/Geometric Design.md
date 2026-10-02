@@ -61,5 +61,57 @@ Note - if a project does not say there is a required foreslope, take the maximum
 - Horizontal Curve Adjustment Factors will change the size of the clear zone as well. 
 	- In general, a higher speed and smaller radius will increase the Horizontal Curve Adjustment Factor. 
 
+---
+### Example Problems 
+
 ![[Pasted image 20260923175402.png]]
+
+$$
+\text{Clear Zone}=CZ_{0}=L_{0}\times K_{CZ}
+$$
+First we need to find the clear zone distance, and then multiply it by the horizontal curve adjustment factor. When taking the clear zone range, it was 24-30ft. But since "minimum" wasn't mentioned, we take the max, 30 ft. 
+
+$$
+\begin{align}
+L_{0}=30\text{ ft} \\
+K_{CZ}=1.4 \\
+\text{Clear Zone}=CZ_{0}=30\text{ ft}\times 1.4 = 42\text{ ft}
+\end{align}
+$$
+Remember, the clear zone is the **shoulder** and the **recoverable/nonrecoverable/runout slopes.** 
+To find X, we will need to subtract 8 ft from 42 ft. 
+$$
+\begin{align}
+X&=CZ_{0}-\text{Shoulder Width} \\
+X&=42\text{ ft }-8\text{ ft}=\boxed{34\text{ ft}}
+\end{align}
+$$
+---
+
+![[Pasted image 20260923180652.png]]
+
+Looking at the table, we can find the width of both clear zones. **Note it asks for minimum.**
+$$
+\begin{align}
+CZ_{1:6}&=20\text{ ft} \\
+CZ_{1:5}&=24\text{ ft}
+\end{align}
+$$
+So the total width (span to span) is both Clear zones and the drivable roadway width (24 ft)
+$$
+20\text{ ft}+24\text{ ft}+12\text{ ft}+12\text{ ft}=68\text{ ft}
+$$
+
+---
+
+![[Pasted image 20260923181044.png]]
+In this case it wants us to find the minimum. The design speed is 45 mph, and the volume is higher during the winter. 
+$$
+\begin{align}
+CZ_{5000}&=20\text{ ft} \text{ for 5000 vpd} \\
+CZ_{1400}&= 16\text{ ft} \text{ for 1400 vpd}
+\end{align}
+$$
+**Always use the maximum for VPD**
+
 
