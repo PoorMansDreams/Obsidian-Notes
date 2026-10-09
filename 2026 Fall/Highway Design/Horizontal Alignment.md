@@ -147,3 +147,36 @@ $$
 PT=PI-T+L=4977.4=49+77.4
 $$
 
+---
+#### Sight Distance for Horizontal Curves
+
+![[Pasted image 20261007172258.png]]
+
+![[Pasted image 20261007172321.png]]
+
+So in this case, we will calculate the adjusted Radius, and the distance between the centerline and the house is not the HSO. 
+$$
+R_{A}=425'-\frac{12}{2}'=419'
+$$
+$$
+HSO=30'-6'=24'
+$$
+
+$$
+\begin{align}
+S=\frac{R_{A}}{28.65}(\cos^{-1}\left( 1-\frac{HSO_{A}}{R} \right)) \\
+S=284.98
+\end{align}
+
+$$
+---
+#### Superelevation
+
+![[Pasted image 20261007173127.png]]
+
+![[Pasted image 20261007173201.png]]
+
+We simply need to find $e$ which is the superelevation slope in ft/ft
+$$
+e=\frac{V^2}{15R}=\frac{65^2}{15\times 1482}-0.11=0.08 \frac{\text{ft}}{\text{ft}}
+$$
