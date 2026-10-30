@@ -55,6 +55,7 @@ A higher resilient modulus is better, it means that the material is less prone t
 This is also shown as $M_{r}$ the test is time consuming, and is 
 ![[Pasted image 20261029201707.png]]
 ![[Pasted image 20261029201719.png]]
+to see more information on how to calculate ESAL, see [[Highway Materials]]
 
 [^1]: When the road gets "tugged" and causes a bump to form, like a rug getting pushed from the side. 
 
