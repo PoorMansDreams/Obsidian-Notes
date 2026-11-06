@@ -74,3 +74,39 @@ $$
 \end{align}
 $$
 
+---
+
+Example 12 - Structural Numbers
+
+We round up to 0.25 inches for this class.
+**Note we round up to 0.5 inches for transportation class**
+**Note that the equations used here differ for transportation class**
+A pavement is to constructed to carry a design ESAL of $5\times 10^6$. The Drainage coefficient is $m_{2}=1.2$ and $m_{3}=1.0$. Find the thickness of each layer. 
+$SN_{1}=2.7$ $SN_{2}=3.8$ $SN_{3}=5$
+$a_{1}=0.4$ $a_{2}=0.138$ $a_{3}=0.095$
+
+For the surface layer, $SN_1=a_{1}D_{1}$
+$$
+D_{1}=2.7\times 0.4=6.75\text{ in}
+$$
+
+For the Base layer, $SN_{2}=a_{1}D_{1}+a_{2}D_{2}m_{2}$
+
+$$
+D_{2}=\frac{3.8-0.4\times 6.75}{0.138\times 1.2}=6.64 \approx 6.75\text{ in}
+$$
+For Subase layer, $SN_{3}=a_{1}D_{1}+a_{2}D_{2}m_{2}+a_{3}D_{3}m_{3}$
+$$
+D_{3}=\frac{5-0.4\cdot6.75-0.138\cdot6.75\cdot1.2}{0.095\cdot1}=12.44 \approx 12.5\text{ in}
+$$
+
+---
+### Cracking
+There are different types of cracking that can happen in flexible pavements
+- Bottom-up fatigue cracking - also called alligator cracking or fatigue cracking 
+	- Common asphalt distress where repeated traffic loads cause microcracks to start at the bottom of the asphalt layer, propagates upwards, makes a network of interconnected cracks that resemble alligator or crocodile skin. 
+	- Some Causes include
+		- Inadequate structural support (weak base/subbase/subgrade)
+- Rutting
+	- Permanent Deformation in the longitudinal depression or channel that forms in the wheel path of a pavement surface, typically caused by heavy traffic loads, high temperatures, or weak subgrade support.
+- 
